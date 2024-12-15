@@ -1,0 +1,1973 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!-- Dichiarazione della DTD TEI: -->
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<!-- Radice e dichiarazione del namespace TEI: -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <!-- Descrizione dell'edizione digitale: -->
+        <fileDesc>
+            <!-- Titolo dell'edizione digitale: -->
+            <titleStmt>
+                <title>Edizione digitale di articoli selezionati dalla rivista 
+                    <orgName>"Rassegna Settimanale"</orgName>
+                </title>
+            </titleStmt>
+            <!-- Informazioni sulla codifica dell'edizione digitale: -->
+            <editionStmt>
+                <edition>
+                    Edizione digitale di <date when="2024-10">Settembre 2024</date>
+                </edition>
+
+                <!-- Inserisco le informazioni su chi ha realizzato l'edizione digitale -->
+                <respStmt>
+                    <resp>Progetto coordinato da</resp>
+                    <persName>Angelo Mario Del Grosso</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Trascrizione a cura di</resp>
+                    <persName>Irene Pallassini</persName>
+                </respStmt>
+            </editionStmt>
+            <!-- Informazioni sulla pubblicazione dell'edizione digitale: -->
+            <publicationStmt>
+                <publisher>Università di Pisa</publisher>
+                <distributor>
+                    Irene Pallassini
+                </distributor>
+                <pubPlace>Pisa</pubPlace>
+                <availability status="free">
+                    <p>Dominio pubblico</p>
+                </availability>
+                <date when="2024-10">Settembre 2024</date>
+            </publicationStmt>
+            <!-- Informazioni sul documento originale: -->
+            <sourceDesc>
+                <bibl>
+                    <!-- Titolo della rivista: -->
+                    <title level="j">La Rassegna Settimanale 
+                        <title type="sub">di politica, scienze, lettere ed arti</title>
+                    </title>
+                    <publisher>Casa Editrice Barbèra</publisher>
+                    <date>1878</date> 
+                    <edition source="https://rassegnasettimanale.animi.it/">
+                        Edizione digitale a cura di: 
+                        <orgName>Comitato per il Centenario della morte di Leopoldo Franchetti</orgName>,
+                        <orgName>Associazione nazionale per gli interessi del Mezzogiorno d’Italia (ANIMI)</orgName>,
+                        <orgName>Università degli Studi Suor Orsola Benincasa</orgName>
+                    </edition>
+                </bibl>
+            </sourceDesc>            
+        </fileDesc>
+    </teiHeader>
+
+    <standOff>
+        <listPerson>
+            <person xml:id="IP" role="transcriber">
+                <persName>Irene Pallassini</persName>
+                <note>Studentessa del terzo anno del corso di Informatica Umanistica dell'Università di Pisa [MAT. 634925]. Responsabile della presente edizione digitale.</note>
+            </person>
+                <person xml:id="CC" role="transcriber">
+                <persName>Carla Caggiano</persName>
+                <note>Studentessa del terzo anno del corso di Informatica Umanistica dell'Università di Pisa [MAT. 640201]. Responsabile della presente edizione digitale.</note>
+            </person>
+            <person xml:id="JK" role="author">
+                <persName><forename>Joseph</forename><surname><corr>Körösi</corr></surname></persName>
+                <birth><date>16 Giugno 1811</date> <placeName>Szeged</placeName></birth>
+                <death><date>31 Gennaio 1868</date> <placeName>Graz</placeName></death>
+                <note>È stato un industriale e fondatore dell'azienda ingegneristica Andritz AG.</note>
+            </person>
+            <person xml:id="EM" role="author">
+                <persName><forename>Ernesto</forename> <surname>Masi</surname></persName>
+                <birth><date>4 agosto 1836</date> <placeName>Bologna</placeName></birth>
+                <death><date>17 maggio 1908</date> <placeName>Firenze</placeName></death>
+                <note>È stato uno storico italiano, professore di storia del Risorgimeto e funzionario della pubblica istruzione.</note>
+            </person>
+        </listPerson>
+
+        <list type="gloss">
+            <head>Glossario dei termini:</head>
+            <label xml:id="lasc">Lascar</label>
+            <item>làscar (o làscari) [dal pers. lashkarī «militare, soldato»].
+                Denominazione usata in India nell’età coloniale, sia dai nativi sia dagli europei,
+                per indicare l’artigliere o marinaio indigeno.</item>
+            <label xml:id="BoR">Bill of Rights</label> 
+            <item>Dichiarazione dei diritti civili e politici accettata nel 1689 da Guglielmo d’Orange
+                nell’atto di salire al trono di Inghilterra dopo la cacciata di Giacomo II Stuart. </item>
+            <label xml:id="ScLi">Scrutinio di lista</label>
+            <item>Questo tipo di lista è il più diffuso. L’ordine dei candidati in ogni lista è già prestabilito e non può essere cambiato.
+                L’elettore può votare una lista senza poter influire sull’ordine dei candidati
+            </item>
+        </list>
+    </standOff>
+
+    <!--Edizione digitale dell'articolo "Scrutinio di Lista" [Volume 1, Fascicolo 22]-->
+    <TEI xml:id="TEI-SL">
+        <teiHeader xml:lang='it'>
+            <fileDesc>
+                <titleStmt>
+                    <title>Scrutinio di Lista (edizione digitale)</title>
+
+                    <!-- Inserisco le informazioni su chi ha realizzato l'edizione digitale -->
+                    <respStmt>
+                        <resp>Progetto coordinato da</resp>
+                        <persName>Angelo Mario Del Grosso</persName>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Trascrizione a cura di</resp>
+                        <persName ref="#IP">Irene Pallassini</persName>
+                        <persName ref="#CC">Carla Caggiano</persName>
+                    </respStmt>
+                </titleStmt>
+                <!-- Informazioni sulla pubblicazione dell'edizione digitale: -->
+                <publicationStmt>
+                    <publisher>Università di Pisa</publisher>
+                    <distributor>Irene Pallassini</distributor>
+                    <distributor>Carla Caggiano</distributor>
+                    <pubPlace>Pisa</pubPlace>
+                    <availability status="free">
+                        <p>Dominio pubblico</p>
+                    </availability>
+                    <date when="2024-10">Settembre 2024</date>
+                </publicationStmt>
+                <!-- Informazioni sul documento originale: -->
+                <sourceDesc>
+                    <bibl>
+                        <!-- Titolo del documento originale -->
+                        <title level="a">
+                            Corrispondenza da Londra
+                        </title>
+                        <!-- Titolo della rivista: -->
+                        <title level="j">La Rassegna Settimanale 
+                            <title type="sub">di politica, scienze, lettere ed arti</title>
+                        </title>
+                        <publisher>Casa Editrice Barbèra</publisher>
+                        <pubPlace>Firenze</pubPlace>
+                        <date>1878</date>
+                        <!-- Informazioni sulla parte del documento codificata: -->
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="issue">22</biblScope>
+                        <biblScope unit="page" from="405" to="406"/>
+                        <edition source="https://rassegnasettimanale.animi.it/wp-content/uploads/2019/02/Vol1-1878-1-S1-F6.pdf#page=10">
+                            Edizione digitale a cura di: 
+                            <orgName>Comitato per il Centenario della morte di Leopoldo Franchetti</orgName>,
+                            <orgName>Associazione nazionale per gli interessi del Mezzogiorno d’Italia (ANIMI)</orgName>,
+                            <orgName>Università degli Studi Suor Orsola Benincasa</orgName>
+                        </edition>
+                    </bibl>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <!-- Zone codificate documento -->
+        <facsimile>
+            <surface xml:id="pag405">
+                <graphic url='img/ScrutinioDiLista1.jpg' width='1156.666666px' height='1671.666666px' />
+                <!--Numero Volume-->
+                <zone ulx="75" uly="270" lrx="151" lry="233" xml:id="pag405-nv"/>
+                <!--Titolo Volume-->
+                <zone ulx="440" uly="207" lrx="684" lry="231" xml:id="paf405-TV"/>
+                <!--Numero Fasciocolo-->
+                <zone ulx="975" uly="208" lrx="1044" lry="231" xml:id="pag405-nf"/>
+                <!--Titolo Articolo-->
+                <zone ulx="162" uly="271" lrx="434" lry="291" xml:id="pag405-TA"/>
+                <!--Paragrafo 1-->
+                <zone ulx="46" uly="297" lrx="549" lry="512" xml:id="pag405-p1"/>
+                <!--Paragrafo 2-->
+                <zone ulx="44" uly="511" lrx="548" lry="706" xml:id="pag405-p2"/>
+                <!--Paragrafo 3-->
+                <zone ulx="40" uly="702" lrx="548" lry="980" xml:id="pag405-p3"/>
+                <!--Paragrafo 4-->
+                <zone ulx="36" uly="977" lrx="546" lry="1153" xml:id="pag405-p4"/>
+                <!--Paragrafo 5-->
+                <zone ulx="36" uly="1151" lrx="542" lry="1265" xml:id="pag405-p5"/>
+                <!--Paragrafo 6-->
+                <zone ulx="67" uly="1262" lrx="330" lry="1284" xml:id="pag405-p6"/>
+                <!--Paragrafo 7-->
+                <zone ulx="29" uly="1281" lrx="539" lry="1560" xml:id="pag405-p7"/>
+                <!--Paragrafo 8-->
+                <zone ulx="560" uly="271" lrx="1066" lry="678" xml:id="pag405-p8"/>
+                <!--Paragrafo 9-->
+                <zone ulx="558" uly="676" lrx="1067" lry="890" xml:id="pag405-p9"/>
+                <!--Paragrafo 10-->
+                <zone ulx="554" uly="887" lrx="1068" lry="1133" xml:id="pag405-p10"/>
+                <!--Paragrafo 11-->
+                <zone ulx="550" uly="1132" lrx="1062" lry="1495" xml:id="pag405-p11"/>
+                <!--Paragrafo 12.1-->
+                <zone ulx="550" uly="1494" lrx="1058" lry="1564" xml:id="pag405-p12.1"/>
+            </surface>
+
+            <surface xml:id="pag406">
+                <graphic url='ScrutinioDiLista2.jpg' width='1154.666666px' height='1682.666666px' />
+                <!--Numero Pagina-->
+                <zone ulx="95" uly="67" lrx="144" lry="85" xml:id="pag406-np"/>
+                <!--Titolo Rivista-->
+                <zone ulx="444" uly="65" lrx="772" lry="87" xml:id="pag406-TR"/>
+                <!--Numero Volume-->
+                <zone ulx="964" uly="63" lrx="1116" lry="90" xml:id="pag406-nv"/>
+                <!--Paragrafo 12.2-->
+                <zone ulx="93" uly="117" lrx="599" lry="247" xml:id="pag406-p12.2"/>
+                <!--Paragrafo 13-->
+                <zone ulx="93" uly="246" lrx="598" lry="696" xml:id="pag406-p13"/>
+                <!--Paragrafo 14-->
+                <zone ulx="91" uly="692" lrx="598" lry="996" xml:id="pag406-p14"/>
+            </surface>
+        </facsimile>
+        
+        <text>
+            <body>
+                <!--Intestazione Pagina-->
+                <pb n="405" facs="#pag405"/>
+                    <fw type="header" place= "top">
+                        <fw rend="align(left)" facs="#pag405-nv">
+                            Vol. 1°.
+                        </fw>
+                        <fw rend="align(center) case(allcaps)" facs="#pag405-TV">
+                            <settlement type="city">Firenze</settlement>, <date when="1878-06-02">2 Giungo 1878</date>.
+                        </fw>
+                        <fw rend="align(right)" facs="#pag405-nf">
+                            [Vol 1 N°. 22.
+                        </fw>
+                    </fw>
+                <!--Inizio Articolo-->
+                    <cb/>
+                    <head rend="align(center) case(allcaps)" facs="#pag411-TA">
+                        LO SCRUTINIO DI LISTA.
+                    </head>
+                
+                <!--Parte Carla-->
+                <p facs="#pag405-p1">
+                    <lb/>Ogni volta che si è trattato di una riforma elettorale,
+                    <lb/>e se ne è parlato continuamente <damage>i</damage>n <orgName>Consiglio dei Ministri</orgName>
+                    <lb/>dal <date when="1876-03-18">18 marzo 1876</date> fi<damage>n</damage>o ad ora, è spuntata fuori la propo<pc force="weak">-</pc>
+                    <lb break="no"/>sta di unire ad un allargamento del suffragio una forma 
+                    <lb/>qualunque di votazione per <term ref="#ScLi">scrutinio di lista</term>. Ora si è par<pc force="weak">-</pc>
+                    <lb break="no"/>lato di <term ref="#ScLi">scrutinio di lista</term> per provincia (<num type="cardianl">69</num> collegi), ora per
+                    <lb/> circondario (<num type="cardinal">208</num>collegi), ora per circoscrizioni speciali di
+                    <lb/> <num type="cardinal" value="6">sei</num>deputati sopra circa <num type="cardinal">300,000</num> abitanti (circa <num type="cardinal">90</num> collegi);
+                    <lb/>ma sotto apparenza più o meno seduttrice tutte queste
+                    <lb/>forme presentano alcuni caratteri fondamentali in comune.
+                </p>
+
+                <p facs="#pag405-p2">
+                    <lb/>Esaminiamo brevemente quali so<unclear reason="ink blot">n</unclear>o in pratica i risul<pc force="weak">-</pc>
+                    <lb break="no"/>tati benefici che si possano sperare da una riforma simile in 
+                    <lb/><placeName><country>Italia</country></placeName> e quali gl’ inconvenienti da <distinct type="archaic">paventare</distinct>. Avvertiamo
+                    <lb/>che qui non discutiamo per ora la questione della oppor<pc force="weak">-</pc>
+                    <lb break="no"/>tunità dell’allargamento del suffragio, ma facendo astra<pc force="weak">-</pc>
+                    <lb break="no"/>zione da quella, vogliamo esaminare partitamente l’altra
+                    <lb/>dello <term ref="#ScLi">scrutinio di lista</term>, tanto nel caso che il suffragio re<pc force="weak">-</pc>
+                    <lb break="no"/>stasse quale è ora, quanto in quello in cui venisse concesso
+                    <lb/> a un maggior numero di cittadini o magari a tutti.
+                </p>
+
+                <p facs="#pag405-p3">
+                    <lb/>E scendendo a parlare dei vantaggi, non esitiamo ad
+                    <lb/>affermare che la ragione precipua per cui lo <term ref="#ScLi">scrutinio di
+                    <lb/>lista</term> trova parecchi fautori nel <orgName>Parlamento</orgName> è la speranza
+                    <lb/>che nutrono moltissimi deputati, oppressi ora dalla ecces<pc force="weak">-</pc>
+                    <lb break="no"/>siva cordialità delle loro relazioni coi propri elettori, che
+                    <lb/>mediante l’allargamento dei confini di ogni collegio, e il
+                    <lb/>rallentamento dei rapporti tra <corr>l</corr>’elettore e il suo rappre<pc force="weak">-</pc>
+                    <lb break="no"/>sentante, essi possano dipendere meno dall’arbitrio o dal
+                    <lb/>capriccio di singoli elettori influenti, e possano quindi im<pc force="weak">-</pc>
+                    <lb break="no"/>punemente occuparsi meno presso il <orgName>Governo centrale</orgName>, delle
+                    <lb/>faccende di quei loro dilettissimi amici. Ciò quanto ai de<pc force="weak">-</pc>
+                    <lb break="no"/>putati spiccioli, a quelli cioè che non si atteggiano ancora
+                    <lb/>a capi-partito.
+                </p>
+
+                <p facs="#pag405-p4">
+                    <lb/>Questi ultimi invece, quando essi abbiano o credano di
+                    <lb/>avere una vera importanza locale, sia regionale sia provin<pc force="weak">-</pc>
+                    <lb break="no"/>ciale, e quando essi siano i capi di qualche gruppo che
+                    <lb/>spadroneggia in una delle <num type="cardinal">69</num> deputazioni provinciali, <orig>veg<pc force="weak">-</pc>
+                    <lb break="no"/>gono</orig> nello <term ref="#ScLi">scrutinio di lista</term> il mezzo di dominare despoti<pc force="weak">-</pc>
+                    <lb break="no"/>camente il loro gruppo e la loro provincia, con lo sradicare
+                    <lb/>dalla rappresentanza di questa le male erbe degli spiriti
+                    <lb/>indipendenti e delle individualità isolate.
+                </p>
+
+                <p facs="#pag405-p5">
+                    <lb/>Siccome però tutti questi motivi non si potrebbero
+                    <lb/>esporre così crudamente senza maravigliare qualche inge<pc force="weak">-</pc>
+                    <lb break="no"/>nuo partigiano, si dichiara che lo <term ref="#ScLi">scrutinio di lista</term> affor<pc force="weak">-</pc>
+                    <lb break="no"/>zerebbe la disciplina di partito e che senza disciplina di
+                    <lb/>partito il <orgName>Governo parlamentare</orgName> non è possibile.
+                </p>
+
+                <p facs="#pag405-p6">
+                    <lb/>Veniamo ora agl’inconvenienti.
+                </p>
+
+                <p facs="#pag405-p7">
+                    <lb/>Lo <term ref="#ScLi">scrutinio di lista</term> con <corr>l</corr>’allargare i confini del collegio
+                    <lb/>allarga il dispotismo della maggioranza e la sua facoltà
+                    <lb/>di escludere da ogni rappresentanza le <unclear reason="ink blot"/>minoranze. Mentre
+                    <lb/>ora, con il frazionamento dei collegi, queste minoranze pos<pc force="weak">-</pc>
+                    <lb break="no"/>sono, concentrando le loro forze su qualche punto, riuscire
+                    <lb/>a mandare un deputato in <orgName>Parlamento</orgName>, con lo <term ref="#ScLi">scrutinio di
+                    <lb/>lista</term> invece, la maggioranza degli elettori sia della provincia,
+                    <lb/>del circondario o della nuova circoscrizione elettiva, può, col
+                    <lb/>votare compatta per tutti i nomi della propria lista, escludere
+                    <lb/>affatto la minoranza, per grossa che sia. Così accade ora,
+                    <lb/>nè potrebbe essere altrimenti, nelle elezioni comunali, le
+                    <lb/>quali, come tutti sanno, si fanno appunto con lo <term ref="#ScLi">scrutinio di lista</term>.
+                </p>
+
+                <!-- inizio nuova colonna pag 405-->
+                <p facs="#pag405-p8">
+                    <lb/>Intendiamoci. Noi ammettiamo bensì che si possa, in nome
+                    <lb/>del diritto delle minoranze, e come si è fatto in <placeName><country>Inghilterra</country></placeName>
+                    <lb/>per le città che eleggono <num type="cardinal" value="3">3</num> deputati, riunire nell’interno
+                    <lb/>di qualche grosso <orgName>Comune</orgName>, dove la divisione attuale a col<pc force="weak">-</pc>
+                    <lb break="no"/>legi è affatto fittizia e artificiale, i diversi collegi in uno
+                    <lb/>solo, col concedere all’elettore il diritto di votare per un
+                    <lb/>numero di candidati minore di quello complessivo del col<pc force="weak">-</pc>
+                    <lb break="no"/>legio. Così nelle città maggiori si potrebbe, con vantaggio
+                    <lb/>delle minoranze e in via di eccezione, riunire <num type="cardinal" value="3">tre</num> o anche
+                    <lb/><num type="cardinal" value="5">cinque</num> collegi in uno, dando ad ogni elettore il diritto di
+                    <lb/>votare per <num type="cardinal">2</num> o rispettivamente per <num type="cardinal">3</num> deputati, e ciò per
+                    <lb/>lasciare adito alle minoranze che raggiungono una certa
+                    <lb/>cifra di aderenti, di ottenere un numero proporzionale di
+                    <lb/>seggi alla <orgName>Camera</orgName>. È questo il sistema detto di voto limi<pc force="weak">-</pc>
+                    <lb break="no"/>tato, e che presenta parecchi vantaggi specialmente quando
+                    <lb/>il numero dei deputati da eleggersi da ogni collegio è piccolo, ma da esso allo <term ref="#ScLi">scrutinio di lista</term> come si discorre
+                    <lb/>di introdurlo in <placeName><country>Italia</country></placeName> vi corre la stessa differenza che dal
+                    <lb/>sì al no : l’uno tutela, 1’ altro soffoca le minoranze locali.
+                    </p>
+                
+                <!--PArte Irene-->
+
+                <p facs="#pag405-p9">
+                    <lb/>E riguardo alle conseguenze pratiche che lo <term  ref="#ScLi">scrutinio
+                    <lb/>di lista</term> avrebbe in <placeName><country>Italia</country></placeName>, esse sarebbero molto probabil<pc force="weak">-</pc>
+                    <lb break="no"/>mente le seguenti : di rafforzare gli spiriti regionali, divi<pc force="weak">-</pc>
+                    <lb break="no"/>dendo sempre più i partiti secondo la divisione delle varie
+                    <lb/>regioni Italiane ; di afforzare <corr>l</corr>’attuale dispotismo delle de<pc force="weak">-</pc>
+                    <lb break="no"/>putazioni provinciali, che rappresentano in <placeName><country>Italia</country></placeName> la quin<pc force="weak">-</pc>
+                    <lb break="no"/>tessenza delle consorterie regionali ; e finalmente di rallen<pc force="weak">-</pc>
+                    <lb break="no"/>tare nei cittadini il sentimento della loro partecipazione al
+                    <lb/>governo della cosa pubblica e quindi della loro responsa<pc force="weak">-</pc>
+                    <lb break="no"/>bilità nel buono o cattivo andamento di quello.
+                </p>
+
+                <p facs="#pag405-p10">
+                    <lb/>Ed invero lo <term ref="#ScLi">scrutinio di lista</term> tende a rafforzare lo spi<pc force="weak">-</pc>
+                    <lb break="no"/>rito regionale, perchè mentre col sistema attuale del colle<pc force="weak">-</pc>
+                    <lb break="no"/>gio ad unico rappresentante, le minute diversità di condi<pc force="weak">-</pc>
+                    <lb break="no"/>zioni morali, topografiche ed economiche da <orgName>Comune</orgName> a <orgName>Co<pc force="weak">-</pc>
+                    <lb break="no"/>mune</orgName>, e la diversa distribuzione delle influenze personali<pc force="weak">-</pc>
+                    <lb/>da luogo a luogo, rompono l’ omogeneità delle rappresen<pc force="weak">-</pc>
+                    <lb break="no"/>tanze regionali, con lo <term  ref="#ScLi">scrutinio di lista</term> invece l’interesse di
+                    <lb/>tutto <!--vriante regionale/letteraria-->intiero il nuovo collegio, il quale s’identificherebbe con
+                    <lb/>l’interesse regionale come contrapposto a quello delle altre
+                    <lb/>regioni della penisola, determinerebbe la scelta di tutta
+                    <lb/>quanta la deputazione di ogni lista.
+                </p>
+
+                <p facs="#pag405-p11">
+                    <lb/>Una tra le nostre istituzioni amministrative che minac<pc force="weak">-</pc>
+                    <lb break="no"/>cia di divenire funesta al paese è quella delle <orgName>Deputazioni
+                    <lb/>provinciali</orgName>, le quali così come sono ordinate esercitano ora
+                    <lb/>un vero dispotismo locale, e sono la più pura espressione
+                    <lb/>dello spirito di consorteria che domina in ogni parte d’<placeName><country>Italia</country></placeName>.
+                    <lb/>Per una delle tante anomalie delle nostre leggi, la tutela della
+                    <lb/><orgName>Deputazione provinciale</orgName> sui <orgName>Comuni</orgName>, ossia la facoltà che essa
+                    <lb/>ha effettivamente di dominarli, in tutto e per tutto, aumenta
+                    <lb/>legalmente nella misura appunto in cui, <!--per il-->pel fatto della stessa
+                    <lb/><orgName>amministrazione provinciale</orgName>, aumentano le sovrimposte pro<pc force="weak">-</pc>
+                    <lb break="no"/>vinciali sulle tasse dirette. Ma di questo torneremo a par<pc force="weak">-</pc>
+                    <lb break="no"/>lare un’altra volta. Per ora basti accennare come lo scru<pc force="weak">-</pc>
+                    <lb break="no"/>tinio di lista diventerebbe arma efficacissima nelle mani
+                    <lb/>della <orgName>Deputazione provinciale</orgName> per spengere ogni benché
+                    <lb/>minima opposizione locale, onde la rappresentanza nazio<pc force="weak">-</pc>
+                    <lb break="no"/>nale verrebbe ad essere un aggregato di piccoli gruppi, in
+                    <lb/>sè omogenei <damage degree="medium">,</damage> costituiti dalle diverse consorterie locali.
+                </p>
+
+                <p facs="#pag405-p12.1">    
+                    <lb/>E ciò anziché portare a partiti politici fortemente co<pc force="weak">-</pc>
+                    <lb break="no"/>stituiti renderebbe ben più difficile ogni salda compagine
+                    <lb/>tra i diversi elementi di un partito, ed ogni composizione
+
+                    <pb n="406" facs="#pag406"/>
+                    <fw type="header" place= "top">
+                        <fw rend="align(left)" facs="#pag406-np">
+                            406
+                        </fw>
+                        <fw rend="align(center) case(allcaps)" facs="#pag406-TR">
+                            LA RASSEGNA SETTIMANALE.
+                        </fw>
+                        <fw rend="align(right)" facs="#pag406-nv">
+                            [Vol.1°,N°22.
+                        </fw>
+                    </fw>
+                    <cb facs="#pag406-p12.2"/>
+                    <lb/>di questo sulla stregua delle grandi questioni di ordine
+                    <lb/>politico, economico e morale. Chè invero sono meno riduci<pc force="weak">-</pc>
+                    <lb break="no"/>bili ad unità compatta tanti diversi gruppi tra loro distinti
+                    <lb/>ma ognuno dei quali è omogeneo nelle diverse sue parti,
+                    <lb/>che non un numero molto maggiore di individui isolati e
+                    <lb/>liberi nei loro movimenti.
+                </p>
+
+                <p facs="#pag406-p13">
+                    <lb/>Noi dubitiamo assai che con lo <term ref="#ScLi">scrutinio di lista</term> si possa
+                    <lb/>ottenere l’intento vagheggiato da molti, di liberare il de<pc force="weak">-</pc>
+                    <lb break="no"/>putato dalle mille raccomandazioni, dalle infinite sollecita<pc force="weak">-</pc>
+                    <lb break="no"/>zioni dei suoi elettori. Questo fatto dipende da ben altre
+                    <lb/>cagioni ; noi abbiamo già accennato altra volta a diverse
+                    <lb/>di esse,* e specialmente alla principale tra quelle, alla gra<pc force="weak">-</pc>
+                    <lb break="no"/>duale usurpazione cioè delle attribuzioni del potere esecutivo
+                    <lb/>per parte di quello legislativo. Finch<corr>è</corr> questa durerà, il
+                    <lb/><roleName>deputato</roleName>, il quale ha da governare il suo collegio oltreché
+                    <lb/>rappresentarlo, non potrà mai liberarsi dal peso del do<pc force="weak">-</pc>
+                    <lb break="no"/>versi occupare di ogni singolo interesse individuale dei
+                    <lb/>suoi elettori, e ciò tanto se questi eleggono lui solo, oppure
+                    <lb/>insieme con lui altri <num type="cardinale">5</num> o più. Tutto al più i deputati gre<pc force="weak">-</pc>
+                    <lb break="no"/>gari potrebbero sperare che mediante lo <term ref="#ScLi">scrutinio di lista</term>
+                    <lb/>essi potrebbero non avere da obbedire che a uno solo tra
+                    <lb/>loro, il quale si occuperebbe in compenso del patrocinio
+                    <lb/>degl’ interessi di tutti gli elettori della circoscrizione elet<pc force="weak">-</pc>
+                    <lb break="no"/>torale. Ma dato pure ciò, gli elettori ricorrerebbero sempre
+                    <lb/>a tutti i singoli deputati del loro collegio, per farsi appog<pc force="weak">-</pc>
+                    <lb break="no"/>giare presso il capo del gruppo. E sarebbe il caso di ripe<pc force="weak">-</pc>
+                    <lb break="no"/>tere : Dove andiamo ?
+                </p>
+
+                <p facs="#pag406-p14">
+                    <lb/>Ma c’ è di più. Con lo scrutinio di lista, in qualunque
+                    <lb/>delle sue forme speciali, <corr>l</corr>’ elettore il quale deve votare per
+                    <lb/>una lista di nomi, in alcuni dei quali non può avere che
+                    <lb/>una fiducia di <num type="ordinal" value="2">seconda</num> mano, perde ogni coscienza della
+                    <lb/>sua azione diretta sul governo della cosa pubblica : il corpo
+                    <lb/>elettorale viene a considerare la <orgName>Camera</orgName> come una cosa di<pc force="weak">-</pc>
+                    <lb break="no"/>stinta da sè, come un potere cui esso ha bensì dato origine,
+                    <lb/>ma con cui ha ben poco in comune. Onde con lo svolgersi
+                    <lb/>del parlamentarismo ci riavvicineremmo al concetto del
+                    <lb/>cesarismo e del governo arbitrario a base di plebiscito, se<pc force="weak">-</pc>
+                    <lb break="no"/>condo cui il principio elettivo cessa di essere una garanzia
+                    <lb/>di libertà per mezzo della rappresentanza dei governati,
+                    <lb/>per divenire invece la consecrazione del dispotismo con la
+                    <lb/>elezione periodica del despota.
+                </p>
+            </body>
+        </text>
+    </TEI>
+
+    <!--Edizione digitale dell'articolo "Corrispondenza da Londra" [Volume 1, Fascicolo 22]-->
+    <TEI xml:id="TEI-CL">
+        <teiHeader xml:lang='it'>
+            <fileDesc>
+                <titleStmt>
+                    <title>Corrispondenza da Londra (edizione digitale)</title>
+
+                    <!-- Inserisco le informazioni su chi ha realizzato l'edizione digitale -->
+                    <respStmt>
+                        <resp>Progetto coordinato da</resp>
+                        <persName>Angelo Mario Del Grosso</persName>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Trascrizione a cura di</resp>
+                        <persName ref="#IP">Irene Pallassini</persName>
+                    </respStmt>
+                </titleStmt>
+                <!-- Informazioni sulla pubblicazione dell'edizione digitale: -->
+                <publicationStmt>
+                    <publisher>Università di Pisa</publisher>
+                    <distributor>
+                        Irene Pallassini
+                    </distributor>
+                    <pubPlace>Pisa</pubPlace>
+                    <availability status="free">
+                        <p>Dominio pubblico</p>
+                    </availability>
+                    <date when="2024-10">Settembre 2024</date>
+                </publicationStmt>
+                <!-- Informazioni sul documento originale: -->
+                <sourceDesc>
+                    <bibl>
+                        <!-- Titolo del documento originale -->
+                        <title level="a">
+                            Corrispondenza da Londra
+                        </title>
+                        <!-- Titolo della rivista: -->
+                        <title level="j">La Rassegna Settimanale 
+                            <title type="sub">di politica, scienze, lettere ed arti</title>
+                        </title>
+                        <publisher>Casa Editrice Barbèra</publisher>
+                        <pubPlace>Firenze</pubPlace>
+                        <date>1878</date>
+                        <!-- Informazioni sulla parte del documento codificata: -->
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="issue">22</biblScope>
+                        <biblScope unit="page" from="411" to="412"/>
+                        <edition source="https://rassegnasettimanale.animi.it/wp-content/uploads/2019/02/Vol1-1878-1-S1-F6.pdf#page=10">
+                            Edizione digitale a cura di: 
+                            <orgName>Comitato per il Centenario della morte di Leopoldo Franchetti</orgName>,
+                            <orgName>Associazione nazionale per gli interessi del Mezzogiorno d’Italia (ANIMI)</orgName>,
+                            <orgName>Università degli Studi Suor Orsola Benincasa</orgName>
+                        </edition>
+                    </bibl>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+
+        <!-- Zone codificate documento -->
+        <facsimile>
+            <surface xml:id="pag411">
+                <!-- Collegamento immagine della pagina: -->
+                <graphic url='img/CorrispondenzaDaLondra1.jpg' width='1137.666666px' height='1659.666666px' />
+                <!--Data-->
+                <zone ulx="56" uly="79" lrx="204" lry="105" xml:id="pag411-data"/>
+                <!--Titolo Rivista-->
+                <zone ulx="396" uly="79" lrx="726" lry="104" xml:id="pag411-TR"/>
+                <!--Numero Pagina-->
+                <zone ulx="1024" uly="81" lrx="1066" lry="103" xml:id="pag411-np"/>
+                <!--Titolo Articolo-->
+                <zone ulx="183" uly="651" lrx="429" lry="670" xml:id="pag411-TA"/>
+                <!--Data Articolo-->
+                <zone ulx="456" uly="672" lrx="536" lry="690" xml:id="pag411-da"/>
+                <!--Paragrafi Articolo-->
+                <!--Paragrafo 1-->
+                <zone ulx="55" uly="694" lrx="558" lry="973" xml:id="pag411-p1"/>
+                <!--Paragrafo 2-->
+                <zone ulx="55" uly="976" lrx="557" lry="1143" xml:id="pag411-p2"/>
+                <!--Paragrafo 3.1-->
+                <zone ulx="54" uly="1141" lrx="556" lry="1572" xml:id="pag411-p3.1"/>
+                <!--Paragrafo 3.2-->
+                <zone ulx="572" uly="131" lrx="1074" lry="435" xml:id="pag411-p3.2"/>
+                <!--Paragrafo 4-->
+                <zone ulx="573" uly="433" lrx="1074" lry="734" xml:id="pag411-p4"/>
+                <!--Paragrafo 5-->
+                <zone ulx="570" uly="730" lrx="1075" lry="863" xml:id="pag411-p5"/>
+                <!--Paragrafo 6-->
+                <zone ulx="572" uly="862" lrx="1076" lry="927" xml:id="pag411-p6"/>
+                <!--Paragrafo 7-->
+                <zone ulx="571" uly="925" lrx="1076" lry="1034" xml:id="pag411-p7"/>
+                <!--Paragrafo 8-->
+                <zone ulx="572" uly="1035" lrx="1076" lry="1098" xml:id="pag411-p8"/>
+                <!--Paragrafo 9-->
+                <zone ulx="571" uly="1096" lrx="1076" lry="1294" xml:id="pag411-p9"/>
+                <!--Paragrafo 10.1-->
+                <zone ulx="569" uly="1293" lrx="1076" lry="1577" xml:id="pag411-p10.1"/>
+            </surface>
+
+            <!-- Pagina 412: -->
+            <surface xml:id="pag412">
+                <!-- Collegamento immagine della pagina: -->
+                <graphic url='img/CorrispondenzaDaLondra2.jpg' width='1142.666666px' height='1662.666666px' />
+                <!--Numero Pagina-->
+                <zone ulx="69" uly="61" lrx="110" lry="83" xml:id="pag412-np"/>
+                <!--Titolo Rivista-->
+                <zone ulx="410" uly="61" lrx="740" lry="84" xml:id="pag412-TR"/>
+                <!--Numero Volume-->
+                <zone ulx="934" uly="61" lrx="1085" lry="88" xml:id="pag412-nv"/>
+                <!--Paragrafi Articolo-->
+                <!--Paragrafo 10.2-->
+                <zone ulx="62" uly="117" lrx="571" lry="438" xml:id="pag412-p10.2"/>
+                <!--Paragrafo 11-->
+                <zone ulx="64" uly="435" lrx="572" lry="780" xml:id="pag412-p11"/>
+                <!--Paragrafo 12-->
+                <zone ulx="63" uly="775" lrx="572" lry="1125" xml:id="pag412-p12"/>
+                <!--Paragrafo 13-->
+                <zone ulx="65" uly="1122" lrx="573" lry="1471" xml:id="pag412-p13"/>
+                <!--Paragrafo 14.1-->
+                <zone ulx="64" uly="1468" lrx="572" lry="1556" xml:id="pag412-p14.1"/>
+                <!--Paragrafo 14.2-->
+                <zone ulx="584" uly="112" lrx="1090" lry="350" xml:id="pag412-p14.2"/>
+                <!--Paragrafo 15-->
+                <zone ulx="585" uly="347" lrx="1090" lry="610" xml:id="pag412-p15"/>
+                <!--Paragrafo 16-->
+                <zone ulx="584" uly="604" lrx="1091" lry="1016" xml:id="pag412-p16"/>
+            </surface>
+        </facsimile>
+
+        <text xml:lang='it'>
+            <body>
+                <!--Intestazione Pagina-->
+                <pb n="411" facs="#pag411"/>
+                <fw type="header" place= "top">
+                    <fw rend="align(left)" facs="#pag411-data">
+                        <date when="1879-06-02">2 Giugno '78</date>.]
+                    </fw>
+                    <fw rend="align(center) case(allcaps)" facs="#pag411-TR">
+                        LA RASSEGNA SETTIMANALE.
+                    </fw>
+                    <fw rend="align(right)" facs="#pag411-np">
+                        411
+                    </fw>
+                </fw>
+                        
+                <!--Inizio Articolo-->
+                <cb/>
+                <head rend="align(center) case(allcaps)" facs="pag411-TA">
+                    CORRISPONDENZA DA LONDRA.
+                    <date when="05-25" rend="align(right) italic font-size(small)" facs="pag411-da">25 maggio</date>.
+                </head>
+
+
+                <milestone unit="column"/>
+                <p facs="#pag411-p1">
+                    <lb/>Il nostro avvenire è tuttora avvolto nella nebbia ; oggi
+                    <lb/>ne sappiamo poco più di quando vi scrissi l’ultima mia.
+                    <lb/>Se le voci che corrono in questo momento son vere, il no<pc force="weak">-</pc>
+                    <lb break="no"/>stro <roleName type="office">primo Ministro</roleName> dev’ essere applaudito per aver fatto
+                    <lb/>mare alla <orgName><country>Russia</country></orgName> le sue pretensioni. Nel corso del mese
+                    <lb/>il partito della guerra è stato alquanto eclissato ; si son<pc force="weak">-</pc>
+                    <lb break="no"/>tenuti <foreign rend="italic" xml:lang="en">meetings</foreign>, si son presentati indirizzi agli <persName><roleName type="honorific">on.</roleName> <surname>Gladstone</surname></persName>
+                    <lb/>e <surname>Bright</surname>, e memorie alla <roleName type="nobility">Regina</roleName> e al <roleName type="office">Segretario degli affari
+                    <lb/>esteri</roleName> per protestare contro qualsiasi tentativo d’impegnarci
+                    <lb/>in una guerra contro la <orgName><country>Russia</country></orgName> per le presenti questioni.
+                    <lb/>Una di queste memorie ha raccolto più d’<num type="cardinal" value="250.000">un quarto di milione</num>
+                    <lb/>di firme, comprese quelle di <surname>Carlyle</surname>, di <surname>Darwin</surname>, del <roleName type="nobility">Duca
+                    <lb/>di Westminster</roleName>, di <persName><roleName type="nobility">Lord</roleName> <surname>Shaftesbury</surname></persName>, di <persName><roleName type="nobility">Lord</roleName> <surname>Coleridge</surname></persName>, ec.
+                </p>
+                <p facs="#pag411-p2">
+                    <lb/>L’avvenimento di questa settimana è stato la discus<pc force="weak">-</pc>
+                    <lb break="no"/>sione, che è durata <num type="cardinal" value="3">tre</num> notti, in <orgName>Parlamento</orgName> riguardo alla
+                    <lb/>condotta del <orgName>Governo</orgName>, il quale, senza il consenso della <orgName>Ca<pc force="weak">-</pc>
+                    <lb break="no"/>mera dei Comuni</orgName> ha fatto passare le truppe indiane in <placeName>Eu<pc force="weak">-</pc>
+                    <lb break="no"/>ropa</placeName>, ed ha ecceduto in tal modo il numero <foreign xml:lang="la" rend="italic">maximum</foreign> vo<pc force="weak">-</pc>tato espressamente poche settimane addietro dalla <orgName>Camera</orgName>
+                    <lb/>di <num type="cardinal">135,000</num> soldati e <num type="cardinal">35,000</num> uomini di riserva sotto le armi
+                    <lb/>da impiegarsi fuori delle <placeName>Indie</placeName>.
+                </p>
+                
+                <p facs="#pag411-p3.1">
+                    <lb/>Nel <term ref="#BoR" rend="italic">Bill of Rights</term> il <orgName>Parlamento</orgName> nel <date when="1689">1689</date> dichiarò : che
+                    <lb/>il levare e tenere un esercito permanente nel regno in
+                    <lb/>tempo di pace, a meno che ciò non accada col consenso
+                    <lb/>del <orgName>Parlamento</orgName>, è contro la legge. Il <orgName>Governo</orgName> ha dunque
+                    <lb/>violata la legge ? oppure eventi posteriori ed atti del Par<pc force="weak">-</pc>
+                    <lb break="no"/>lamento l’hanno modificata per modo che il <term ref="#BoR" rend="italic">Bill of Rights</term>
+                    <lb/>non la dichiara più con precisione ? Tuttavia i partigiani
+                    <lb/>del <orgName>Ministero</orgName> hanno posto la questione sotto un <num type="ordinal" value="3">terzo</num>
+                    <lb/>aspetto : hanno detto che la necessità non ha legge e che
+                    <lb/>il caso è stato sì grave da giustificare il <orgName>Gabinetto</orgName> dallo
+                    <lb/>avere infranto la stretta lettera della legge a suo pro<pc force="weak">-</pc>
+                    <lb break="no"/>prio rischio, e sotto la sua responsabilità. La conclusione
+                    <lb/>che si affaccia alla mente di un semplice<!--sbaffo-->- uomo di buon
+                    <lb/>senso dopo aver letto ciò che i più abili giuristi e statisti
+                    <lb/>hanno da dire, è che la nostra costituzione è simile al pro<pc force="weak">-</pc>
+                    <lb break="no"/>verbiale atto del <orgName>Parlamento</orgName> <q>« attraverso il quale un legale
+                    <lb/>abile è buono a far passare una carrozza a <num type="cardinal" value="6">sei</num> cavalli »</q>
+                    <lb/>e che questi propugnacoli di carta della libertà somi<pc force="weak">-</pc>
+                    <lb break="no"/>gliano molto alle opere esteriori d’una fortezza ; se non
+                    <lb/>le difendiamo con altrettanto vigore, quanto ne spiega<pc force="weak">-</pc>
+
+                    <milestone unit="column" facs="#pag411-p3.2"/>
+
+                    <lb break="no"/>rono i nostri padri conquistandole, esse cadranno silen<pc force="weak">-</pc>
+                    <lb break="no"/>ziosamente l’una dopo l’altra nelle mani dei nemici e sa<pc force="weak">-</pc>
+                    <lb break="no"/>ranno rivolte contro la fortezza stessa. E evidente che il
+                    <lb/>nostro <roleName>primo Ministro</roleName> non esiterebbe a passare sopra a
+                    <lb/>questi limiti di carta per raggiungere i suoi fini ; poiché
+                    <lb/>in un discorso francamente sarcastico e provocatore egli
+                    <lb/>dichiarò: <q>«noi affermiamo d’aver perfetto diritto di con<pc force="weak">-</pc>
+                    <lb break="no"/>rogativa, e che in seguito a tal consiglio essa può coman<pc force="weak">-</pc>
+                    <lb break="no"/>dare alle sue truppe indigene dell’ <placeName>Indie</placeName>, d’ occupar <placeName>Malta</placeName>
+                    <lb/>o qualunque altra piazza. »</q> Quindi il <roleName type="office">primo Ministro</roleName> ritiene
+                    <lb/>che le truppe indiane possono esser trasportate a <placeName><settlement type="city">Londra</settlement></placeName>
+                    <lb/>ad ogni momento in cui i consiglieri di <roleName type="epithet">Sua Maestà</roleName> lo
+                    <lb/>credano necessario.
+                </p>
+                
+                <p facs="#pag411-p4">
+                    <lb/>I nostri antenati nel <date when="1689">1689</date> non potevano naturalmente
+                    <lb/>contemplare l’esistenza di <num type="cardinal">200,000</num> soldati indiani sotto il
+                    <lb/>comando del <roleName>sovrano d’<placeName><country>Inghilterra</country></placeName></roleName> ; s’ essi avessero potuto
+                    <lb/>preveder ciò, avrebbero formulato il loro <term ref="#BoR" rend="italic">Bill of Rights</term> in
+                    <lb/>modo da comprendere chiaramente anche il caso presente.
+                    <lb/>Non v’ha dubbio che il loro intento fu quello d’impedire
+                    <lb/>al <roleName type="nobility">Monarca</roleName> <corr>l</corr>’ esecuzione di atti quale è quello del recare
+                    <lb/>truppe indiane vicino alle <placeName>coste d’Inghilterra</placeName>. A rigor di ter<pc force="weak">-</pc>
+                    <lb break="no"/>mini io credo che la lettera della legge del <date when="1689">1689</date> non impedi<pc force="weak">-</pc>
+                    <lb break="no"/>sca al <roleName>Sovrano</roleName> di licenziare gli uomini che sono a bordo della
+                    <lb/>fiotta della Manica e sostituir loro truppe indiane e <term ref="#lasc" rend="italic">lascari</term>
+                    <lb/>per marinai e mandar le navi così equipaggiate ad incrociare
+                    <lb/>intorno alle n<unclear reason="ink blot">ò</unclear>stre coste, ma egli è ovvio che una tal mi<pc force="weak">-</pc>
+                    <lb break="no"/>sura violerebbe il fine e il significato del <term ref="#BoR" rend="italic">Bill of Rights</term>.
+                </p>
+
+                <p facs="#pag411-p5">
+                    <lb/>Comunque sia, si stima che il fine abbia giustificato il
+                    <lb/>mezzo, e la presente <orgName>Camera dei Comuni</orgName> è sì lieta di tro<pc force="weak">-</pc>
+                    <lb break="no"/>vare che la nostra forza militare è stata ad un tratto quasi
+                    <lb/>raddoppiata, che attualmente è d’umore da appoggiare il
+                    <lb/><roleName type="office">primo Ministro</roleName> in qualsiasi misura legale o illegale, costi
+                    <lb/>tuzionale o dispotica, <corr>c</corr>h’ ei credesse conveniente di adottare.
+                </p>
+
+                <p facs="#pag411-p6">
+                    <lb/>È impossibile suscitare molto interesse qui su questa
+                    <lb/>faccenda; i cittadini non sentono che le loro libertà vengono
+                    <lb/>menomate, e non si scuoteranno, finché non lo sentano.
+                </p>
+
+                <p facs="#pag411-p7">
+                    <lb/><corr>È</corr> un bene per noi l’avere avuto questo avvertimento
+                    <lb/>che, quanto più ci avviciniamo alla democrazia, tanto più
+                    <lb/>le nostre libertà sono esposte agli attentati di un <roleName>primo
+                    <lb/>ministro</roleName> qualunque, il quale possieda l’orecchio del <roleName>sovrano</roleName>
+                    <lb/>ed abbia gusto per il governo dispotico.
+                </p>
+                
+                <p facs="#pag411-p8">
+                    <lb/>Noi viviamo sotto una dittatura, e per conseguenza siamo
+                    <lb/>più forti per la guerra e più deboli per i progressi paci<pc force="weak">-</pc>
+                    <lb break="no"/>fici, che non siamo stati nel corso di molte generazioni.
+                </p>
+
+                <p facs="#pag411-p9">
+                    <lb/>Le elezioni del <date when="05">mese</date> corrente hanno avuto un valore in
+                    <lb/>certo. L’ <orgName>Università d’ Oxford</orgName> ha preferito a considerevole
+                    <lb/>maggioranza un signor <surname>Talbot</surname>, possidente(<foreign xml:lang="en">country gentleman</foreign>)
+                    <lb/>di buona famiglia il quale ha ultimamente accettato una
+                    <lb/>carica subalterna nel governo, al <persName><roleName>prof.</roleName> <surname>Smith</surname></persName>, distintissimo
+                    <lb/><foreign xml:lang="en" rend="italic">resident</foreign> nell’ <orgName>Università</orgName> e liberale. Il professore era appog<pc force="weak">-</pc>
+                    <lb break="no"/>giato da una numerosa maggioranza di <foreign xml:lang="en" rend="italic">fellows</foreign> e di profes<pc force="weak">-</pc>
+                    <lb break="no"/>sori residenti nell’Università. Il <surname>Talbot</surname> aveva i voti del
+                    <lb/>clero del contado.
+                </p>
+
+                <p facs="#pag411-p10.1">
+                    <lb/>La questione d’ <placeName>Oriente</placeName> non era implicata nell’ elezione,
+                    <lb/>non avendo nè <corr>l</corr>’ uno nè <corr>l</corr>’ altro dei candidati manifestato
+                    <lb/>opinioni decise sulla medesima, e per questo motivo alcuni
+                    <lb/>elettori si astennero. Le nostre <num type="cardinal" value="2">due</num> antiche <orgName>Università</orgName> sono
+                    <lb/>singolarmente sfortunate nella scelta dei loro rappresen<pc force="weak">-</pc>
+                    <lb break="no"/>tanti. Esse mandano per il solito al <orgName>Parlamento</orgName> uomini di
+                    <lb/>mediocre talento, le cui principali caratteristiche sono l’edu<pc force="weak">-</pc>
+                    <lb break="no"/>cazione e la rispettabilità accompagnate da un forte sen<pc force="weak">-</pc>
+                    <lb break="no"/>timento di setta religiosa in favore della <orgName>Chiesa</orgName> costituita
+                    <lb/>e di tutti i diritti e privilegi del clero. Quando, come qual<pc force="weak">-</pc>
+                    <lb break="no"/>che volta è avvenuto, un uomo eletto a quel modo gli ha
+                    <lb/>sorpresi spiegando una volontà e una capacità proprie, egli
+                    <lb/>è stato costretto a cercarsi un altro collegio. Così, quando
+                    
+                    <!--Inizio nuova pagina-->    
+                    <pb n="412" facs="#pag412"/>
+                    <fw type="header" place= "top">
+                        <fw rend="align(left)" facs="pag412-np">
+                            412
+                        </fw>
+                        <fw rend="align(center) case(allcaps)" facs="#pag412-TR">
+                            LA RASSEGNA SETTIMANALE.
+                        </fw>
+                        <fw rend="align(left)" facs="#pag412-nv">
+                            [Vol. 1°, N°22
+                        </fw>
+                    </fw>
+                    
+                    <cb/>
+                    <milestone unit="column" facs="#pag412-p10.2"/>
+                    <lb/>il fu Sir <persName><forename>Robert</forename> <surname>Peel</surname></persName>, che aveva avuto l’onore di rappre<pc force="weak">-</pc>
+                    <lb break="no"/>sentare <orgName>Oxford</orgName> fino dal <date>1817</date>, cominciò nel <date>1829</date> ad accor-<pc force="weak">-</pc>
+                    <lb break="no"/>gevi che non era ragionevole il rifiutare più a lungo ai<pc force="weak">-</pc>
+                    <lb break="no"/>nostri concittadini cattolici quei diritti e quei privilegi che
+                    <lb/>i protestanti godevano ; l’<orgName>Università</orgName> lo respinse, preferendo
+                    <lb/>un signore, il cui principal titolo ad essere ricordato è,
+                    <lb/>ch’egli rappresentò quel collegio durante un periodo cri<pc force="weak">-</pc>
+                    <lb break="no"/>tico. Nel <date when="1831">1831</date>, <orgName>Cambridge</orgName> non rielesse <persName><roleName type="nobiity">Lord</roleName><surname>Palmerston</surname></persName>,
+                    <lb/>allora <roleName type="office">Segretario degli esteri</roleName>, che già cominciava a racco<pc force="weak">-</pc>
+                    <lb break="no"/>gliere quella universale ammirazione che lo seguì fino agli
+                    <lb break="no"/>ultimi giorni della sua vita, ed in sua vece l’<orgName>Università</orgName>
+                    <lb/>elesse un uomo oscuro. <surname>Gladstone</surname> fu rigettato da <orgName>Oxford</orgName>
+                    <lb/>nel <date>1866</date> dopo <corr>c</corr>h’ egli aveva tenuto quel seggio per quasi
+                    <lb/><num>20</num> anni, e fin da quell’ epoca <persName><forename>Gathorne</forename> <surname>Hardy</surname></persName>, il mangia<pc force="weak">-</pc>
+                    <lb break="no"/>fuoco, ha goduto la fiducia dei graduati dell’<orgName>Università</orgName>.
+                </p>
+                
+                <p facs="#pag412-p11">
+                    <lb/>Il segreto di questa debolezza sta in questo che ogni
+                    <lb/>membro dell’<orgName>Università</orgName> il quale abbia raggiunto il grado
+                    <lb/>di <foreign xml:lang="la" rend="italic"><roleName>Magister Artium</roleName></foreign>, possiede un voto. E siccome questo
+                    <lb/>grado è il risultato abituale d’ un corso ordinario all’ <orgName>Uni-<pc force="weak">-</pc>
+                    <lb break="no"/>versità</orgName> senz’ altra distinzione, la grande maggioranza di
+                    <lb/>questi <!--rend="italic"-->graduati si trova nel clero del contado, il quale
+                    <lb/>nelle faccende politiche è nella massima parte dei casi
+                    <lb/>fautore dei signorotti di provincia, e considera la<!--sbaffatura-->. Costi<pc force="weak">-</pc>
+                    <lb break="no"/>tuzione come basata sulla supremazia politica e sociale
+                    <lb/>della <orgName>Chiesa</orgName> stabilita. Così le idee progressiste degli uo<pc force="weak">-</pc>
+                    <lb break="no"/>mini distinti che risiedono nelle <orgName>Università</orgName> e prendono
+                    <lb/>parte attiva al loro governo, sono sopraffatte da persone
+                    <lb/>di volgarissima capacità e di scarsissima cognizione del
+                    <lb/>mondo, le quali non si vedon mai in quelle antiche aule
+                    <lb/>se non quando fioccano da tutte le parti dell’ isola per vo<pc force="weak">-</pc>
+                    <lb break="no"/>tare contro a un <surname>Peel</surname>, un <surname>Palmerston</surname> o un <surname>Gladstone</surname>.
+                </p>
+
+                <p facs="#pag412-p12">
+                    <lb/>Il <date when="1878-05-22">22 corrente</date>, sir <persName><forename>Harcourt</forename><surname>Johnstone</surname></persName> propose la seconda
+                    <lb/>lettura del suo <term ref="#BoR" rend="italic">Bill</term> per l’abrogazione delle leggi riguardanti<pc force="weak">-</pc>
+                    <lb break="no"/>legalmente autorizzata dallo Stato la prostituzione e così
+                    <lb/>la nostra <roleName type="nobility">Regina</roleName> (il cui personal carattere elevato e puro
+                    <lb/>è uno de’ nostri più orgogliosi vanti nazionali) è messa
+                    <lb/>nella necessità di dare la sua sanzione ufficiale al vizio ses<pc force="weak">-</pc>
+                    <lb break="no"/>suale, ma i diritti fondamentali stessi d’ogni cittadino sono
+                    <lb/>abrogati. Una donna innocente di qualsiasi colpa può sotto
+                    <lb/>queste nuove leggi esser privata della sua libertà senza
+                    <lb/>processo e semplicemente per sospetto d’un comune <foreign xml:lang="en">poli<pc force="weak">-</pc>
+                    <lb break="no"/>ceman</foreign>. Non c’ è bisogno di dire che una volta arrestata
+                    <lb/>l’ autorità ha molte vie di tenerla in sua balìa ; e senza
+                    <lb/>commettere altra colpa che quella di rifiutar di sottoporsi
+                    <lb/>ad un esame indecente, una donna può esser tenuta in pri<pc force="weak">-</pc>
+                    <lb break="no"/>gione per molti mesi. <!--sbaffo-->y
+                </p>
+
+                <p facs="#pag412-p13">
+                    <lb/>Queste leggi furono emanate da un <orgName>Governo liberale</orgName>
+                    <lb/>nel <date when="1866">1866</date> per soddisfare i ghiribizzi d’ alcuni semi-scienziati
+                    <lb/>e d’ alcuni ufficiali subalterni dei dicasteri militari e na<pc force="weak">-</pc>
+                    <lb break="no"/>vali, e non si capisce perchè i presenti <roleName>Ministri</roleName> abbiano
+                    <lb/>a difendere <!--arcaico-->coteste leggi, essendo esse innovazioni ai <!--arcaico-->prin<pc force="weak">-</pc>
+                    <lb break="no"/>cipii stabiliti del nostro diritto, ed essendo state condan<pc force="weak">-</pc>
+                    <lb break="no"/><corr>n</corr>ate da una <orgName>Commissione reale</orgName>. E cosa intesa che elle
+                    <lb/>saranno abolite appena torneranno al potere i liberali,
+                    <lb/>poiché il movimento iniziato contr’ esse da <persName><roleName>monsignor</roleName>
+                    <lb/><forename>Giorgio</forename> <surname>Butter</surname></persName> e da altri distinti personaggi religiosi e
+                    <lb/>scienziati, ha guadagnato terreno sugli animi di quasi tutti
+                    <lb/>gli uomini pubblici di carattere e d’influenza morale fra i
+                    <lb/>liberali, e fra molti ancora del partito conservatore. Ma il
+                    <lb/><orgName>Governo</orgName> attuale si è mostrato sordo a tutte le considera<pc force="weak">-</pc>
+                    <lb/>zioni morali, alienandosi a poco a poco in tal modo tutti
+                    <lb/>gli uomini seri e morali del paese.
+                </p>
+
+                <p facs="#pag412-p14.1">
+                    <lb/>Lo sciopero degli operai cotonieri in <placeName>Lancashire</placeName> ha
+                    <lb/>portato a un’ esplosione di violenza, di brutalità e di disor<pc force="weak">-</pc>
+                    <lb break="no"/>dine di cui non si era avuto esempio in <placeName><country>Inghilterra</country></placeName> du<pc force="weak">-</pc>
+                    <lb break="no"/>rante la nostra generazione. Una filanda è stata incen<pc force="weak">-</pc>
+                    
+                    <milestone unit="column" facs="#pag412-p14.2"/>
+
+                    <lb break="no"/>diata, molte sono state assaltate<unclear>.</unclear><corr>l</corr>’ abitazione d’uno dei
+                    <lb/>capi fra i padroni, che si era segnalato nella sua resi<pc force="weak">-</pc>
+                    <lb break="no"/>stenza alle domande dei lavoranti fu devastata da una
+                    <lb/>ribalda canaglia e bruciata col petrolio; esso e la sua fa<pc force="weak">-</pc>
+                    <lb break="no"/>miglia fuggirono in alcune carrozze dalla porta di dietro,
+                    <lb/>e buon per loro, che se gli avessero arrivati, gli avrebbero
+                    <lb/>probabilmente malconci. Altre abitazioni di padroni fu<pc force="weak">-</pc>
+                    <lb break="no"/>rono assaltate, e le più grossolane offese personali recate
+                    <lb/>da frotte isolate di ciurmaglia, e per colmo di mali, le au<pc force="weak">-</pc>
+                    <lb break="no"/>torità furon costrette ad impiegare i soldati per ristabilire
+                    <lb/>l’ordine.
+                </p>
+                
+                <p facs="#pag412-p15">
+                    <lb/>Così la contea di <placeName>Lancashire</placeName> che per tanti anni aveva
+                    <lb/>orgogliosamente affermata la sua posizione di capo, e cen<pc force="weak">-</pc>
+                    <lb break="no"/>tro della civiltà in <placeName><country>Inghilterra</country></placeName>, tanto che <persName><roleName type="nobility">lord</roleName><surname>Derby</surname></persName> van<pc force="weak">-</pc>
+                    <lb break="no"/>tava: <q>«ciò che pensa <placeName>Lancashire</placeName> oggi, lo pensa l’<orgName><country>Inghil<pc force="weak">-</pc>
+                    <lb break="no"/>terra</country></orgName> domani »</q> è stata costretta a chieder le truppe del<pc force="weak">-</pc>l’impero per comporre una contesa fra due classi del suo
+                    <lb/>popolo, e per impedire che i suoi figli stessi la ricacciassero
+                    <lb/>in uno stato di barbarie. Questa vergogna è molto sentita
+                    <lb/>nella Contea, e in una piccola città, <placeName><settlement type="city">Clitheroe</settlement></placeName>, un gran
+                    <lb/>numero di abitanti ha protestato contro l’intervento dei
+                    <lb/>soldati, e si è incaricato di mantener l’ordine nella propria
+                    <lb/>città, se fossero ritirati i lancieri.
+                </p>
+
+                <p facs="#pag412-p16">
+                    <lb/>La cagione immediata degli oltraggi fu il rifiuto dei
+                    <lb/>padroni di recedere minimamente dalle loro prime esigenze,
+                    <lb/>il non volersi sottoporre ad alcun arbitrato, il non voler
+                    <lb/>venire ad alcuno accomodamento, il volere sottomissione
+                    <lb/>assoluta, e non appagarsi d’altro che di questa. Inoltre a
+                    <lb/><placeName><settlement type="city">Preston</settlement></placeName>, dove i lavoranti avevano accettato le condizioni
+                    <lb/>poste dai padroni, ed erano andati a lavorare senza ridu<pc force="weak">-</pc>
+                    <lb break="no"/>zione di tempo, con salari ridotti del <num type= "percentage" value="10">10 per cento</num>, le filande
+                    <lb/>furon loro chiuse in faccia per ordine dell’ Associazione dei
+                    <lb/>padroni, <foreign xml:lang="en" rend="italic"><orgName>Trades-Union</orgName></foreign> formata dai padroni per combattere
+                    <lb/>gli operai colle loro stesse armi. <q>Gli operai di <placeName><settlement type="city">Preston</settlement></placeName>, dice
+                    <lb/>l’Associazione, non riceveranno da noi salari, coi quali essi
+                    <lb/>possano aiutare i loro compagni in isci<unclear reason="ink blot">o</unclear>pero in altri luo<pc force="weak">-</pc>
+                    <lb break="no"/>ghi; se non lavoreranno tutti alle nostri condizioni, nes<pc force="weak">-</pc>
+                    <lb break="no"/>suno lavorerà<unclear reason="ink blot"/>,</q> Con siffatti procedimenti tanto i padroni
+                    <lb/>quanto gli operai si sono alienata la simpatia e la benevo<pc force="weak">-</pc>
+                    <lb/>lenza della pubblica opinione; i lavoranti dovranno ora
+                    <lb/>vivere <!--arcaico-->colle loro proprie risorse, e non potranno durarla
+                    <lb/>molto più a lungo.
+                </p>
+            </body>
+        </text>
+    </TEI>
+
+    <!--Edizione digitale dell'articolo "La Settimana" [Volume 1, Fascicolo 22]-->
+    <TEI xml:id="TEI-LS">
+        <teiHeader xml:lang='it'>
+            <fileDesc>
+                <titleStmt>
+                    <title>La Settimana (edizione digitale)</title>
+
+                    <!-- Inserisco le informazioni su chi ha realizzato l'edizione digitale -->
+                    <respStmt>
+                        <resp>Progetto coordinato da</resp>
+                        <persName>Angelo Mario Del Grosso</persName>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Trascrizione a cura di</resp>
+                        <persName ref="#CC">Carla Caggiano</persName>
+                    </respStmt>
+                </titleStmt>
+                <!-- Informazioni sulla pubblicazione dell'edizione digitale: -->
+                <publicationStmt>
+                    <publisher>Università di Pisa</publisher>
+                    <distributor>
+                        Carla Caggiano
+                    </distributor>
+                    <pubPlace>Pisa</pubPlace>
+                    <availability status="free">
+                        <p>Dominio pubblico</p>
+                    </availability>
+                    <date when="2024-10">Settembre 2024</date>
+                </publicationStmt>
+                <!-- Informazioni sul documento originale: -->
+                <sourceDesc>
+                    <bibl>
+                        <!-- Titolo del documento originale -->
+                        <title level="a">
+                            Corrispondenza da Londra
+                        </title>
+                        <!-- Titolo della rivista: -->
+                        <title level="j">La Rassegna Settimanale 
+                            <title type="sub">di politica, scienze, lettere ed arti</title>
+                        </title>
+                        <publisher>Casa Editrice Barbèra</publisher>
+                        <pubPlace>Firenze</pubPlace>
+                        <date>1878</date>
+                        <!-- Informazioni sulla parte del documento codificata: -->
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="issue">22</biblScope>
+                        <biblScope unit="page" from="411" to="412"/>
+                        <edition source="https://rassegnasettimanale.animi.it/wp-content/uploads/2019/02/Vol1-1878-1-S1-F6.pdf#page=10">
+                            Edizione digitale a cura di: 
+                            <orgName>Comitato per il Centenario della morte di Leopoldo Franchetti</orgName>,
+                            <orgName>Associazione nazionale per gli interessi del Mezzogiorno d’Italia (ANIMI)</orgName>,
+                            <orgName>Università degli Studi Suor Orsola Benincasa</orgName>
+                        </edition>
+                    </bibl>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>  
+
+        <facsimile>
+            <surface xml:id="pag414">
+                <graphic url='img/LaSettimana1.jpg' width='1152.666666px' height='1674.666666px' />
+                <!--Numero Pagina-->
+                <zone ulx="64" uly="118" lrx="118" lry="59" xml:id="pag414-np"/>
+                <!--Titolo Rivista-->
+                <zone ulx="412" uly="415" lrx="745" lry="738" xml:id="pag414-TR"/>
+                <!--Numero Volume-->
+                <zone ulx="932" uly="36" lrx="1086" lry="61" xml:id="pag414-nv"/>
+                <!--Titolo Articolo-->
+                <zone ulx="231" uly="1184" lrx="409" lry="1207" xml:id="pag414-TA"/>
+                <!--Data Articolo-->
+                <zone ulx="453" uly="1207" lrx="534" lry="1227" xml:id="pag414-date"/>
+                
+                <!--Paragrafi-->
+                <!--Paragrafo 1-->
+                <zone ulx="68" uly="1227" lrx="573" lry="1295" xml:id="pag414-p1"/>
+                <!--Paragrafo 2-->
+                <zone ulx="64" uly="1291" lrx="574" lry="1359" xml:id="pag414-p2"/>
+                <!--Paragrafo 3-->
+                <zone ulx="69" uly="1356" lrx="574" lry="1493" xml:id="pag414-p3"/>
+                <!--Paragrafo 4.1-->
+                <zone ulx="67" uly="1487" lrx="575" lry="1537" xml:id="pag414-p4.1"/>
+                <!--Paragrafo 4.2-->
+                <zone ulx="582" uly="88" lrx="1087" lry="179" xml:id="pag414-p4.2"/>
+                <!--Paragrafo 5-->
+                <zone ulx="582" uly="170" lrx="1087" lry="351" xml:id="pag414-p5"/>
+                <!--Paragrafo 6-->
+                <zone ulx="584" uly="343" lrx="1090" lry="607" xml:id="pag414-p6"/>
+                <!--Paragrafo 7-->
+                <zone ulx="584" uly="599" lrx="1091" lry="777" xml:id="pag414-p7"/>
+                <!--Paragrafo 8-->
+                <zone ulx="585" uly="778" lrx="1092" lry="1038" xml:id="pag414-p8"/>
+                <!--Paragrafo 9-->
+                <zone ulx="589" uly="1035" lrx="1092" lry="1380" xml:id="pag414-p9"/>
+                <!--Paragrafo 10.1-->
+                <zone ulx="586" uly="1402" lrx="1094" lry="1535" xml:id="pag414-p10"/>
+            </surface>
+
+            <surface xml:id="pag415">
+                <graphic url='img/LaSettimana2.jpg' width='1145.5px' height='1671.5px' />
+                <!--Data Rivista-->
+                <zone ulx="61" uly="215" lrx="219" lry="63" xml:id="pag415-dp"/> 
+                <!--Titolo Rivista-->
+                <zone ulx="403" uly="406" lrx="734" lry="730" xml:id="pag415-TR"/> 
+                <!--Numero Pagina Rivista-->
+                <zone ulx="1028" uly="1033" lrx="1080" lry="1077" xml:id="pag415-np"/>
+                
+                <!--Paragrafo 10.2-->
+                <zone ulx="64" uly="117" lrx="564" lry="156" xml:id="pag415-p10.2"/>
+                <!--Paragrafo 11-->
+                <zone ulx="90" uly="156" lrx="526" lry="179" xml:id="pag415-p11"/>
+                <!--Paragrafo 12-->
+                <zone ulx="62" uly="176" lrx="564" lry="461" xml:id="pag415-p12"/>
+                <!--Paragrafo 13-->
+                <zone ulx="64" uly="453" lrx="564" lry="543" xml:id="pag415-p13"/>
+                <!--Paragrafo 14-->
+                <zone ulx="65" uly="536" lrx="563" lry="650" xml:id="pag415-p14"/>
+                <!--Paragrafo 15-->
+                <zone ulx="63" uly="648" lrx="568" lry="1143" xml:id="pag415-p15"/>
+                <!--Paragrafo 16-->
+                <zone ulx="65" uly="1141" lrx="570" lry="1507" xml:id="pag415-p16"/>
+                <!--Paragrafo 17.1-->
+                <zone ulx="64" uly="1505" lrx="572" lry="1550" xml:id="pag415-p17.1"/>
+                <!--Paragrafo 17.2-->
+                <zone ulx="579" uly="110" lrx="1080" lry="584" xml:id="pag415-p17.2"/>
+                <!--Paragrafo 18-->
+                <zone ulx="581" uly="583" lrx="1082" lry="714" xml:id="pag415-p18"/>
+            </surface>
+        </facsimile>
+
+        <text xml:lang='it'>
+            <body>
+                <!--Intestazione Pagina-->
+                <pb n="411" facs="#pag414"/>
+                <fw type="header" place= "top">
+                    <fw rend="align(left)" facs="#pag414-np">
+                        414
+                    </fw>
+                    <fw rend="align(center) case(allcaps)" facs="#pag414-TR">
+                        LA RASSEGNA SETTIMANALE.
+                    </fw>
+                    <fw rend="align(right)" facs="#pag414-nv">
+                        [Vol. 1°, N° 22.
+                    </fw>
+                </fw>
+                        
+                <!--Inizio Articolo-->
+                <cb/>
+                <head rend="align(center) case(allcaps)" facs="pag414-TA">
+                    LA SETTIMANA.
+                    <date when="05-31" rend="align(right) italic font-size(small)" facs="pag414-date">31 maggio</date>.
+                </head>
+
+                <p facs="pag414-p1">
+                    <lb />Il trattato di commercio e navigazione del<date when="1867-04-23">23 aprile 1867</date>
+                    <lb />attualmente in vigore fra l’<orgName><country>Italia</country></orgName> e la <orgName><placeName>monarchia Austro<pc force="weak">-</pc>
+                    <lb break="no" />Ungarica</placeName></orgName>, è stato prorogato a tutto il <date when="1878-06-30">30 giugno 1878</date>.
+                </p>
+
+                <p facs="pag414-p2">
+                    <lb /><corr>È</corr> pure sta <damage degree="low">t</damage>o prorogato alla stessa data il trattato di
+                    <lb />commercio del <date when="1868-07-22">22 luglio 1868</date> ora vigente fra l’ <placeName>Italia</placeName> e la
+                    <lb /><placeName>Svizzera</placeName>.<unclear reason="ink blot"/>
+                </p> 
+
+                <p>
+                    <list>
+                        <item facs="#pag414-p3">
+                            <lb/>La <title rend="italic">Gazzetta Ufficiale</title> del <date when="05-31">31 maggio</date>pubblica il de <pc force="weak">-</pc>
+                            <lb break="no" />creto reale che sanziona e prom <damage degree="low">ulga</damage> la nuova tariffa doga <pc force="weak">-</pc>
+                            <lb break="no" />nale d’importazione e d’ esportazione e l’abolizione del de <pc force="weak">-</pc>
+                            <lb break="no" />cimo di guerra, del <num type="percentage" value="5">5%</num> di diritto di spedizione sui dazi
+                            <lb />doganali e del diritto di statistica. La tariffa andrebbe in
+                            <lb />vigore il <date when="06-01">1° giugno</date> (<abbr>V.</abbr> nel <orgName rend="italic">Parlamento</orgName> tornata del <date when="05-31">31 maggio</date>).
+                        </item>
+
+                        <item facs="#pag414-p4.1">
+                            <lb/><unclear reason="ink blot"><corr>Il</corr></unclear><roleName>Ministro dell’Interno</roleName> ha dovuto prendere degli
+                            <lb/>speciali provvedimenti per riparare alle alterate condizioni
+
+                            <!--inizio colonna a dx pag.414–-->
+                            <milestone unit="column" facs="#pag414-p4.1"/>
+                            <lb />della pubblica sicurezza nell’<placeName> <region>isola di Sardegna</region></placeName>, che da qual <pc force="weak">-</pc>
+                            <lb break="no" />che tempo è infest<damage degree="low">a</damage>ta da malandrini. Tali provvedimenti
+                            <lb />consistono nell’ aumento dei carabinieri e nell’ invio di un
+                            <lb />personale scelto di sicurezza pubblica.
+                        </item>
+
+                        <item facs="#pag414-p5">
+                            <lb />La<orgName>Corte di Cassazione</orgName> di<placeName><settlement type="city">Roma</settlement></placeName> a sezioni riunite in
+                            <lb /><orgName>Camera di Consiglio</orgName> ha cassato <unclear reason="ink blot"/>(<num type="cardinal">27</num>) la deliberazione della 
+                            <lb /><orgName>Corte di Appello</orgName> di <placeName> <settlement type="city">Parma</settlement> </placeName> con cui si protestava contro la
+                            <lb />condotta della pubblica stampa relativamente alla parte
+                            <lb />presa dal <persName><roleName>Procuratore generale</roleName><surname>Oliva</surname></persName>nel processo <surname>Filip<pc force="weak">-</pc>
+                            <lb break="no" />pone</surname>, ed ha inflitto il <unclear reason="ink blot"/> provvedimento disciplinare dell’ am<pc force="weak">-</pc>
+                            <lb break="no" />monizione ai magistrati che si fecero autori della cassata
+                            <lb />deliberazione.
+                        </item>
+
+                        <item facs="#pag414-p6">
+                            <lb />A<placeName><settlement type="city">Napoli</settlement></placeName>, dal giudice istruttore presso quel tribunale,
+                            <lb />sulle conformi requisitorie del<orgName>Pubblico Ministero</orgName>, si è
+                            <lb />emessa ordinanza di non farsi luogo a procedere contro
+                            <lb />il<persName><roleName>deputato</roleName><surname>Crispi</surname></persName>per la imputazione di bigamia che gli
+                            <lb />era stata mossa. L’ordinanza ha ritenuto che quando il
+                            <lb /><persName><surname>Crispi</surname></persName>(allora<orgName>Ministro dell’interno</orgName>) contraeva l’ultime nozze,
+                            <lb />egli non era vincolato da altro matrimonio legalmente ce<pc force="weak">-</pc>
+                            <lb break="no" />lebrato. La questione legale è quindi risoluta a favore del
+                            <lb /><persName><surname>Crispi</surname></persName>; resta però la questione morale, ben altrimenti im<pc force="weak">-</pc>
+                            <lb break="no" />portante, e riguardo alla quale la coscienza della Nazione
+                            <lb />ha già pronunziato il suo verdetto in senso opposto a quello
+                            <lb />dei magistrati.
+                        </item>
+
+                        <item facs="#pag414-p7">
+                            <lb />L’<persName><roleName><abbr>on.</abbr></roleName><surname>Bertani</surname></persName>, pubblica un opuscolo intitolato: L’<emph rend="italic">Ita<pc force="weak">-</pc>
+                            <lb break="no"/>lia aspetta</emph>, nel quale dichiara non esservi affatto incompa<pc force="weak">-</pc>
+                            <lb break="no"/>tibilità fra i veri interessi del paese e la monarchia. La
+                            <lb/><orgName>Corona</orgName>, egli dice, ha dato prova di lealtà <q>« interpretando 
+                            <lb/>i voti della <orgName>Camera</orgName> e prestando orecchio alle voci del di
+                            <lb/>fuori nella scelta a capo del <orgName>Gabinetto</orgName> di <persName><forename>Benedetto</forename><surname>Cai<pc force="weak">-</pc>
+                            <lb break="no" />roli</surname></persName>, per lungo tempo in fama di deputato di Sinistra estre<pc force="weak">-</pc>
+                            <lb break="no" />ma ed acclamato campione della Democrazia. »</q>
+                        </item>
+                    </list>
+                </p>
+
+                <p facs="#pag414-p8">
+                    <lb />L’<abbr>A.</abbr> crede che il<emph rend="italic">programma-miracolo</emph> domandato dai re<pc force="weak">-</pc>
+                    <lb break="no" />pubblicani non è superiore al liberalismo del<orgName>capo del Ga<pc force="weak">-</pc>
+                    <lb break="no" />binetto</orgName>, alla lealtà del principe e al patriottismo di en<pc force="weak">-</pc>
+                    <lb break="no" />trambi. Afferma indeclinabile provvedimento pacificatore la
+                    <lb />abolizione della tassa sul macinato. Chiede che lo<orgName>Stato</orgName>
+                    <lb />pensi a provvedere alle condizioni delle classi miserabili,
+                    <lb />specialmente agricole, e che si cerchi di risolvere pacifica<pc force="weak">-</pc>
+                    <lb break="no" />mente la questione sociale che si va ponendo e s’ avanza. — 
+                    <lb />E conchiude : <q>« Fermo nelle mie antiche convinzioni, pur mi
+                    <lb />domando infine: È dunque possibile ancora fare il bene
+                    <lb />della patria progredendo sulla nuova strada cogli uomini
+                    <lb />oggi al<orgName>Governo</orgName> ? Io confido, aspetto ed aiuto.
+                    
+                    <list facs="#pag414-p9">
+                        <item>
+                            <lb />» Che può fare il <roleName>Re</roleName> in questa nuova <term>fase italiana</term> ? Egli
+                            <lb />avrà istinto e senno di conservazione e di progresso ad un 
+                            <lb />tempo e la democrazia gli sarà amica se soddisfatta.
+                        </item>
+                        <item>
+                            <lb />» Che faremo noi, devoti alla democrazia ?
+                        </item>
+                        <item>
+                            <lb />»<foreign xml:lang="la"><emph rend="italic">Alere flammam</emph></foreign>.
+                        </item>
+                        <item>Questo è il nostro dovere.</item>
+                        <item>    
+                            <lb />» Noi saremo per voi, o Gabinetto <surname>Cairoli</surname>, vigili e pre <pc force="weak">-</pc> 
+                            <lb break="no" />murosi come le guardie notturne del fuoco... <unclear reason="ink blot"/> </item>
+                            <lb /><item>» Ma se gli uomini un <unclear reason="ink blot"/>dì battaglieri nelle file della de <pc force="weak">-</pc>
+                            <lb break="no" />mocrazia ed ora consiglieri della Corona, la illudano o stan <pc force="weak">-</pc>
+                            <lb break="no" />chino, allora <corr>l</corr>’ opinione nazionale irresistibile sovrana, se <pc force="weak">-</pc>
+                            <lb break="no" />gnerà il vespro per chi la ingannò’ e <corr>l</corr>’ aurora per chi mai
+                            <lb />le ruppe fede. Allora, allora, non la nostra soltanto ma la
+                            <lb />pazienza popolare sarà esaurita.
+                        </item>
+                        <item>
+                            <lb />» Questa è la mia convinzione. Questa è la carità politica
+                            <lb />che parmi carità di patria come io oggi la intendo ; gli amici
+                            <lb />miei vi pensino, e se m’inganno sarò io solo il deluso. »
+                        </item>
+                    </list></q>
+
+                </p>
+
+                <p>
+                    <list>
+                        <item facs="#pag414-p10">
+                            <lb />Il <date when="05-30">30 maggio</date> fu celebrato a <placeName><settlement type="city">Parigi</settlement></placeName> il centenario della
+                            <lb />morte di<persName><surname>Voltaire</surname></persName>. Era intenzione dei promotori di dare
+                            <lb />alla celebrazione un carattere nazionale. Ma il partito cle<pc force="weak">-</pc>
+                            <lb break="no" />ricale avendone preso pretesto <corr>per<unclear reason="ink blot"/>fare</corr>della agitazione, il <!--originale "pestare"-->
+                            <lb />governo credè bene di proibire ogni cerimonia pubblica ed
+                            <lb />annullò anche una deliberazione del<orgName>Consiglio comunale</orgName> di
+                            
+                            <pb n="415" facs="#pag415"/>
+                            <fw type="header" place= "top" facs="#pag415">
+                                <fw rend="align(left)" facs="#pag415-dp">
+                                    <date when="1878-06-02">2 Giugno ’78</date>.]  
+                                </fw>
+                                <fw rend="align(center) case(allcaps)" facs="#pag415-TR">
+                                    LA RASSEGNA SETTIMANALE.
+                                </fw>
+                                <fw rend="align(right)" facs="#pag415-np">
+                                    415
+                                </fw>
+                            </fw>
+
+                            <!--inizio colonna a pag.415 -->
+
+                            <cb/>
+                            <milestone unit="column" facs="#pag415-p10.2"/>
+                            <lb /><placeName><settlement type="city">Parigi</settlement></placeName> che aveva determinato di ordinare una festa in onore
+                            <lb />del grande filosofo.
+                        </item>
+
+                        <item facs="#pag415-p11">
+                            <lb />Il <date when="--29">29</date> è morto <persName> <roleName>lord</roleName> <forename>John</forename> <surname>Russel</surname></persName>. Aveva <num type="cardinal">86</num> anni.
+                        </item>
+                        <item facs="#pag415-p12">
+                            <lb />Il <term>plebiscito</term> nel Cantone di <placeName type="city">Zurigo</placeName> ha respinto la ri<pc force="weak">-</pc>
+                            <lb break="no" />soluzione del <orgName>gran Consiglio</orgName> di partecipare con <num value="cardinal">800,000</num>
+                            <lb />franchi all’ intrapresa del<placeName type="mountaine"><name>Gottardo</name></placeName>.
+
+                            <lb />I<placeName>Cantoni di Vaud</placeName>,del <placeName>Vallese</placeName>,dei<placeName>Grigioni</placeName>,di<placeName>Gi<pc force="weak">-</pc> <!--CANTONI-->
+                            <lb break="no" />nevra</placeName> e di <placeName>San Gallo</placeName> hanno rivolto al <orgName>Consiglio federale</orgName>
+                            <lb />delle proteste contro <corr>l</corr>’ ulteriore sovvenzione da accordarsi
+                            <lb />all’ intrapresa del<placeName>Gottardo</placeName> dal governo federale. È noto
+                            <lb />che degli<num type="cardinal">8,000,000</num> che la conferenza di <placeName type="city">Losanna</placeName> del <date when="1877-06">giu<pc force="weak">-</pc>
+                            <lb break="no" />gno 1877</date> poneva a carico della <orgName><country>Svizzera</country></orgName>, come supplemento
+                            <lb />di contributo a quella intrapresa, una parte doveva esser <!--vicino alla "d"oveva c'è un punto di sbavatura-->
+                            <lb />fornita dai Cantoni interessati, ed una parte dal governo
+                            <lb />federale ; quest’ ultima diviene tanto maggiore quanto mi <pc force="weak">-</pc>
+                            <lb break="no" />nore è la liberalità dei Cantoni.
+                        </item>
+
+                        <item facs="#pag415-p13">
+                            <lb />Il<orgName>Reichstag</orgName>, nella seduta del <date when="05-27">27 maggio</date>, respinse il
+                            <lb /><num type="ordinal" value="1">primo</num> paragrafo del progetto di legge contro i socialisti,
+                            <lb />con voti <num type="cardinal">251</num> contro<num type="cardinal">57</num>. Il governo, dopo questo voto, ritirò
+                            <lb />il progetto. La sessione fu chiusa il <date when="05-27">giorno stesso</date>.
+                        </item>
+
+                        <item  facs="#pag415-p14">
+                            <lb /> La<orgName>Commissione del Reichstag tedesco</orgName> incaricata del<pc force="weak">-</pc> <!-- segno iniziale-->
+                            <lb break="no" />l’ esame del trattato di commercio con la <orgName><country>Romania</country></orgName>, ne pro<pc force="weak">-</pc>
+                            <lb break="no" />pose la reiezione perchè il governo rumeno si rifiutò a
+                            <lb />estendere agli israeliti tedeschi i beneficii del trattato com<pc force="weak">-</pc>
+                            <lb break="no" />merciale senza alcuna restrizione.
+                        </item>
+
+                        <item facs="#pag415-p15">
+                            <lb />Il<persName><roleName>conte</roleName><surname>Schuwaloff</surname></persName>ha ottenuto il resultato di rendere
+                            <lb />possibile la riunione del <orgName>Congresso</orgName>. Fino dal <date>24</date> l'<orgName><emph rend="italic">Agenzia
+                            <lb />Russa</emph></orgName> da<placeName><settlement type="city">Pietroburgo</settlement></placeName> e un telegramma viennese dell’<emph rend="italic">In<pc force="weak">-</pc>
+                            <lb break="no" />dépendance Belge</emph> annunziavano che le divergenze fra l’<orgName><country>In<pc force="weak">-</pc>
+                            <lb break="no" />ghilterra</country></orgName> e la<orgName><country>Russia</country></orgName> erano state appianate. Il <date>25</date> si annun<pc force="weak">-</pc>
+                            <lb break="no" />ziava da<placeName><settlement type="city">Londra</settlement></placeName> che <corr>l</corr>’ ammiragliato aveva avvertito l’ar<pc force="weak">-</pc>
+                            <lb break="no" />senale di<placeName>Chatham</placeName> che non era più necessario di completare
+                            <lb />l’ armamento delle corazzate nei termini prescritti, e il <date>26</date>
+                            <lb />il<emph rend="italic">Journal des. Débats</emph> assicurava che la<orgName><country>Russia</country></orgName> aveva accon<pc force="weak">-</pc>
+                            <lb break="no" />sentito di sottoporre tutto il<date when="1878-03-03">trattato di <placeName>Santo Stefano</placeName></date> al
+                            <lb /> <orgName>Congresso</orgName>, e che la riunione di questo era già stata fissata
+                            <lb />per <corr>l</corr>’ <date>11</date> corrente a <placeName><settlement type="city">Berlino</settlement></placeName>. Per altro dopo è stato chiarito
+                            <lb />che i resultati della missione Schuwaloff non sono così precisi
+                            <lb />come nei primi momenti era stato creduto. Infatti il <date>28</date> la
+                            <lb /><emph rend="italic">Corrispondenza Politica</emph> di<placeName><settlement type="city">Vienna</settlement></placeName> smentiva che fossero stati
+                            <lb />scelti il luogo e il giorno del <orgName>Congresso</orgName> <damage>e</damage> un telegramma <!--la "e " di congiunzione è rovinata-->
+                            <lb />da<placeName><settlement type="city">Pietroburgo</settlement></placeName> dello stesso giorno dichiarava ipotetiche le
+                            <lb />notizie dei giornali sulla data e sul modo della riunione
+                            <lb />del <orgName>Congresso</orgName>, ed aggiungeva che i Gabinetti erano stati,
+                            <lb />è vero, privatamente interrogati sulla convenienza della
+                            <lb />data dell’ <date when="06-11">11 giugno</date>, ma che questa non era stata ancora fis<pc force="weak">-</pc>
+                            <lb break="no" />sata. I resultati per altro ottenuti dal<persName><roleName>conte</roleName><surname>Schuwaloff</surname></persName> sono
+                            <lb />sempre tali da dover rallegrare i sinceri amici della pace.
+                        </item>
+
+                        <item facs="#pag415-p16">
+                            <lb />Il<title rend="italic">Globe</title> del<date>31</date> afferma che la <orgName><country>Russia</country></orgName> e l’<orgName><country>Inghilterra</country></orgName>
+                            <lb />si sono accordate sui punti seguenti: Formazione di due
+                            <lb />Bulgarie, che una al Nord sotto un principe, l’altra al Sud
+                            <lb />con un governatore cristiano. L’<orgName><country>Inghilterra</country></orgName> deplora la re<pc force="weak">-</pc>
+                            <lb break="no" />trocessione della<placeName><region>Bessarabia</region></placeName>, ma non si oppone; si riserva
+                            <lb />di discutere nel <orgName>Congresso</orgName> gli accomodamenti riguardanti
+                            <lb />il Danubio, e non considera il possesso di Batum come un
+                            <lb />intervento ostile. La <orgName><country>Russia</country></orgName> promette di non oltrepassare
+                            <lb />la sua frontiera dell’<placeName>Asia</placeName> e restituisce <persName>Bajazid</persName>. La <orgName><country>Turchia</country></orgName>
+                            <lb />cede la <placeName>provincia di Cotura</placeName> alla <orgName><country>Persia</country></orgName>. La <orgName><country>Russia</country></orgName> non
+                            <lb />prende indennità in territorio, e non contrarierà i credi<pc force="weak">-</pc>
+                            <lb break="no" />tori inglesi della <placeName><country>Turchia</country></placeName>. La questione del pagamento si
+                            <lb />discuterà al <orgName>Congresso</orgName>. Il <orgName>Congresso</orgName> riorganizzerà l’<placeName>Epiro</placeName>,
+                            <lb />la <placeName>Tessaglia</placeName> e le altre province greche. Il passaggio dei
+                            <lb />Dardanelli e del Bosforo resta allo<emph rend="italic">statu quo</emph>. Il <orgName>Congresso</orgName>
+                            <lb />discuterà la questione dell’ occupazione russa e il passaggio
+                            <lb />delle truppe russe e rumene.
+                        </item>
+
+                        <item facs="#pag415-p17.1">
+                            <lb />A<placeName><settlement type="city">Vienna</settlement></placeName> sono riunite le Delegazioni. Nella seduta 
+                            <lb />del <date>28</date>,<persName>Andrassy</persName>, esponendo le ragioni che richiedono l’im<pc force="weak">-</pc>
+
+                            <!--inizio colonna a dx pag.415–-->
+                            <milestone unit="column" facs="#pag415-p17.2"/>
+                            <lb break="no" />piego effettivo di una parte del credito accordato, disse che la
+                            <lb />Monarchia non deve diventare moralmente dipendente dalle
+                            <lb />altre Potenze, che possono sorgere complicazioni che mi<pc force="weak">-</pc>
+                            <lb break="no" />naccino gl’interessi austriaci anche dopo l’effettuazione del<pc force="weak">-</pc>
+                            <lb break="no" />l’ accordo sulle questioni europee, e che per prevenire qual<pc force="weak">-</pc>
+                            <lb break="no" />siasi eventualità è necessario rinforzare le guarnigioni della
+                            <lb /><placeName><region>Transilvania</region></placeName> e della <placeName><region>Dalmazia</region></placeName>. La<orgName>Delegazione ungherese</orgName>
+                            <lb />prese atto della dichiarazione, e la <orgName>Delegazione austriaca</orgName>
+                            <lb />decise di rinviarla alla<orgName>Commissione</orgName>. Le dichiarazioni che
+                            <lb />fece il giorno successivo in seno della<orgName>Delegazione austriaca</orgName>
+                            <lb />furono anche di maggior importanza, poiché specificò i punti
+                            <lb />principali del<date when="1878-03-03">trattato di <placeName>Santo Stefano</placeName></date> che l’<orgName><country>Austria</country></orgName> desidera
+                            <lb />che vengano modificati, mettendo in evidenza che le frontiere
+                            <lb />della <placeName><country>Bulgaria</country></placeName> sono troppo estese, che <corr>l</corr>’ occupazione per
+                            <lb /><num type="cardinal" value="2">due</num> anni della <orgName><country>Bulgaria</country></orgName> e la occupazione parziale della
+                            <lb /><orgName><country>R<corr>o</corr>m<corr>a</corr>nia</country></orgName>, congiunta al libero passaggio delle truppe, sono
+                            <lb />troppo lunghe ; che finalmente le frontiere dei piccoli Stati
+                            <lb />vicini pregiudicano troppo gl’interessi dell’<orgName><country>Austria</country></orgName>, la quale
+                            <lb />in massima non opponesi ad un ingrandimento della<placeName><country>Serbia</country></placeName>
+                            <lb />e del <placeName><country>Montenegro</country></placeName>. Aggiunse che il <orgName>governo austro-ungarico</orgName>
+                            <lb />aveva già comunicato queste osservazioni alla <orgName><country>Russia</country></orgName> e alle
+                            <lb />altre potenze.
+                        </item>
+                    </list>
+                </p>
+
+                <p facs="#pag415-p18">
+                    <lb />Le truppe austriache, previo accordo col governo turco,
+                    <lb />hanno occupato il<date when="05-25">25 maggio</date><placeName>Ada Kaleh</placeName>, isola fortificata sul
+                    <lb />Danubio, che finora aveva una guarnigione di<num type="cardinal">800</num> turchi.
+                    <lb />Il<persName><roleName>conte</roleName><surname>Andrassy</surname></persName> ha dichiarato alla <orgName>Delegazione Unghe<pc force="weak">-</pc>
+                    <lb break="no"/>rese</orgName> che <corr>l</corr>’ occupazione dell’ Isola durerà finché il <orgName>Congresso</orgName>
+                    <lb />non ne abbia stabilito la sorte.
+                </p>
+            </body>
+        </text>
+    </TEI>
+
+    <!--Entrata Biliografica "LETTERATURA E STORIA." [Volume 1, Fascicolo 22]-->
+    <TEI xml:id="TEI-B.LeS">
+        <teiHeader xml:lang='it'>
+            <fileDesc>
+                <titleStmt>
+                    <title>Letteratura e storia. (edizione digitale)</title>
+
+                    <!-- Inserisco le informazioni su chi ha realizzato l'edizione digitale -->
+                    <respStmt>
+                        <resp>Progetto coordinato da</resp>
+                        <persName>Angelo Mario Del Grosso</persName>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Trascrizione a cura di</resp>
+                        <persName ref="#IP">Irene Pallassini</persName>
+                    </respStmt>
+                </titleStmt>
+                <!-- Informazioni sulla pubblicazione dell'edizione digitale: -->
+                <publicationStmt>
+                    <publisher>Università di Pisa</publisher>
+                    <distributor>
+                        Irene Pallassini
+                    </distributor>
+                    <pubPlace>Pisa</pubPlace>
+                    <availability status="free">
+                        <p>Dominio pubblico</p>
+                    </availability>
+                    <date when="2024-10">Settembre 2024</date>
+                </publicationStmt>
+                <!-- Informazioni sul documento originale: -->
+                <sourceDesc>
+                    <bibl>
+                        <!-- Titolo del documento originale -->
+                        <title level="a">
+                            Entrata bibliografica nella sezione "Letteratura e storia" in:
+                        </title>
+                        <!-- Titolo della rivista: -->
+                        <title level="j">La Rassegna Settimanale 
+                            <title type="sub">di politica, scienze, lettere ed arti</title>
+                        </title>
+                        <publisher>Casa Editrice Barbèra</publisher>
+                        <pubPlace>Firenze</pubPlace>
+                        <date>1878</date>
+                        <!-- Informazioni sulla parte del documento codificata: -->
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="issue">22</biblScope>
+                        <biblScope unit="page">422</biblScope>
+                        <edition source="https://rassegnasettimanale.animi.it/wp-content/uploads/2019/02/Vol1-1878-1-S1-F6.pdf#page=10">
+                            Edizione digitale a cura di: 
+                            <orgName>Comitato per il Centenario della morte di Leopoldo Franchetti</orgName>,
+                            <orgName>Associazione nazionale per gli interessi del Mezzogiorno d’Italia (ANIMI)</orgName>,
+                            <orgName>Università degli Studi Suor Orsola Benincasa</orgName>
+                        </edition>
+                    </bibl>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+
+        <!--Zone codificate documento-->
+        <facsimile>
+            <surface xml:id="pag422-LS">
+                <graphic url='img/Bibliografia1.jpg' width='1143.666666px' height='1653.666666px' />
+                <!--Numero pagina-->
+                <zone ulx= "75" uly="123" lrx="125" lry="76" xml:id="pag422-np" />
+                <!--Titolo rivista-->
+                <zone ulx="418" uly="418" lrx="758" lry="757" xml:id="pag422-TR"/>
+                <!--Numero volume-->
+                <zone ulx="935" uly="1102" lrx="1108" lry="938" xml:id="pag422-nv" />
+
+                <!--Tipo Entrata-->
+                <zone ulx="222" uly="657" lrx="426" lry="677" xml:id="pag422-LeS"/>
+                <!--Ref. Libro-->
+                <zone ulx="73" uly="679" lrx="580" lry="741" xml:id="pag422-ref"/>
+                <!--Paragrafi Entrata-->
+                <!--Paragrafo 1-->
+                <zone ulx="71" uly="752" lrx="574" lry="1101" xml:id="pag422-p1"/>
+                <!--Paragrafo 2-->
+                <zone ulx="72" uly="1098" lrx="574" lry="1376" xml:id="pag422-p2"/>
+                <!--Paragrafo 3.1-->
+                <zone ulx="70" uly="1374" lrx="574" lry="1549" xml:id="pag422-p3.1"/>
+                <!--Paragrafo 3.2-->
+                <zone ulx="591" uly="108" lrx="1096" lry="452" xml:id="pag422-p3.2"/>
+                <!--Paragrafo 4-->
+                <zone ulx="590" uly="449" lrx="1095" lry="735" xml:id="pag422-p4"/>
+                <!--Paragrafo 5-->
+                <zone ulx="590" uly="732" lrx="1094" lry="1034" xml:id="pag422-p5"/>
+                <!--TItolo Articolo: La statistica-->
+                <zone ulx="792" uly="895" lrx="900" lry="792" xml:id="pag422-Stat"/>
+            </surface>
+        </facsimile>
+
+                <text xml:lang='it'>
+            <body>
+                <!--Intestazione Pagina-->
+                <fw type="header" place= "top">
+                    <fw rend="align(left)" facs="#pag422-np">
+                        422
+                    </fw>
+                    <fw rend="align(center) case(allcaps)" facs="#pag422-TR">
+                        LA RASSEGNA SETTIMANALE.
+                    </fw>
+                    <fw rend="align(right)" facs="#pag422-nv">
+                        [Vol. 1°, N° 22.
+                    </fw>
+                </fw>
+                        
+                <!--Inizio Articolo-->
+                <cb/>
+                <head rend="align(center) case(allcaps)" facs="#pag422-Les">
+                    LETTERATURA E STORIA
+                </head>
+
+                <bibl facs="#pag422-ref">
+                    <lb/><author rend="case(allcaps)" facs="#EM"><persName><forename>Ernesto</forename> <surname>Masi</surname></persName></author>. <title rend="italics">La vita i tempi gli amici di <persName><forename>Francesco</forename> <surname>Al<pc force="weak">-</pc>
+                    <lb break="no"/>bergati</surname></persName>, commedio<corr>g</corr>rafo del <date from="1701" to="1800">secolo X V I I I</date></title> .— <pubPlace><placeName>Bologna</placeName></pubPlace>, <publisher>Za<pc force="weak">-</pc>
+                    <lb break="no"/>nichelli</publisher>, <date>1878</date>.
+                </bibl>
+                
+                <p facs="#pag422-p1">
+                    <lb/>In <placeName><country>Italia</country></placeName> è ancora cosa rara che si stampi un libro il
+                    <lb/>quale si possa leggere da cima a fondo senza troppe in<pc force="weak">-</pc>
+                    <lb break="no"/>terruzioni, e quando ne vien fuori uno, è dovere della
+                    <lb/>critica il segnalarlo subito all’ attenzione del pubblico. Tale
+                    <lb/>è il volume del <surname>Masi</surname>. Le difficoltà a fare un buon libro su
+                    <lb/><persName><forename>Francesco</forename> <surname>Albergati</surname></persName>, il commediografo bolognese del <date from="1701" to="1800">se<pc force="weak">-</pc>
+                    <lb break="no"/>colo XVIII</date>, erano maggiori di quel che forse non si pensa.
+                    <lb/>L’<persName><surname>Albergati</surname></persName> non fu un uomo di genio, e sebbene avesse
+                    <lb/>gran nome al suo tempo, oggi nessuno legge più i suoi <num type="cardinal" value="12">do<pc force="weak">-</pc>
+                    <lb break="no"/>dici</num> volumi fra traduzioni e commedie originali, e di lui
+                    <lb/>non parlano più che le storie letterarie. Il <persName><forename>Masi</forename></persName> non è ca<pc force="weak">-</pc>
+                    <lb break="no"/>duto in quell’errore comune a tanti scrittori di biografie,
+                    <lb/>che nel personaggio di cui scrivono fanno sempre un eroe.
+                    <lb/>Egli ci ritrae l’<persName><forename>Albergati</forename></persName> come privato e come scrittore
+                    <lb/>colle sue virtù e coi suoi difetti, senza la pretesa di farlo
+                    <lb/>passare per un grand’uomo.
+                </p>
+
+                <p facs="#pag422-p2">
+                    <lb/>La vita un po’ avventurosa del ricco patrizio bolognese
+                    <lb/>e le sue relazioni con gli uomini più famosi del suo tempo
+                    <lb/>porgono al nostro <abbr>A.</abbr> occasione di farci una pittura in
+                    <lb/>molti luoghi assai viva dell’ <placeName><country>Italia</country></placeName> nel <date from="1701" to="1800">secolo XVIII</date>. In vero
+                    <lb/>il teatro dell’ azione si ristringe più specialmente a <placeName><settlement type="city">Bolo<pc force="weak">-</pc>
+                    <lb break="no"/>gna</settlement></placeName> e a <placeName><settlement type="city">Venezia</settlement></placeName>, dove l’<persName><surname>Albergati</surname></persName> era solito di soggiornare
+                    <lb/>la più parte dell’ anno, ma il vivere di queste <num type="cardinal" value="2">due</num> città
+                    <lb/>non era, quanto ai costumi, gran che disforme da quello
+                    <lb/>delle altre, e i molti particolari ed aneddoti che l’<abbr>A.</abbr> in<pc force="weak">-</pc>
+                    <lb break="no"/>treccia con arte finissima alla vita del suo protagonista,
+                    <lb/>rischiarano di viva luce tutto quel secolo così vario nelle
+                    <lb/>sue spensieratezze e mollezze, nelle sue aspirazioni e nei
+                    <lb/>suoi tentativi di riforme.
+                </p>
+
+                <p facs="#pag422-p3.1">
+                    <lb/>Del resto, <persName><forename>Francesco</forename><surname>Albergati</surname></persName> ha nella storia della
+                    <lb/>drammatica italiana un gran merito, quello di essersi
+                    <lb/>adoperato come il <persName><surname>Goldoni</surname></persName> e col <persName><surname>Goldoni</surname></persName> alla riforma
+                    <lb/>del Teatro. Inferiore di gran lunga al commediografo ve<pc force="weak">-</pc>
+                    <lb break="no"/>neziano, fu quegli però, nel suo secolo, che più gli si av<pc force="weak">-</pc>
+                    <lb break="no"/>vicinò, e che meglio di molti altri comprese la necessità di
+                    <lb/>ritornar la commedia ad essere una sincera rappresenta<pc force="weak">-</pc>
+                    <lb break="no"/>zione della natura. Anzi, dal lato della satira, <q>« la commedia </q>
+                </p>
+
+                <p facs="pag422-p3.2">
+                    <lb/><q>dell’<persName><surname>Albergati</surname></persName>,» </q> a giudizio del <persName><surname>Masi</surname></persName>, <q>« va più addentro e ta<pc force="weak">-</pc>
+                    <lb break="no"/>glia più nel vivo »</q> <ref>(pag. 345)</ref>. La qual cosa non costituisce
+                    <lb/>sempre nell’ arte drammatica un pregio ; anzi fu questa,
+                    <lb/>come bene osserva <corr>l</corr>’ <abbr>A.</abbr>, una delle cause perchè le comme<pc force="weak">-</pc>
+                    <lb break="no"/>die dell’ <surname>Albergati</surname> oggi non si leggono più nè più si rap<pc force="weak">-</pc>
+                    <lb break="no"/>presentano. <q><unclear reason="ink blot">«</unclear> L’ <surname>Albergati</surname> non temperava, non universaleg<pc force="weak">-</pc>
+                    <lb break="no"/>giava alcuno dei suoi tipi comici. Copiava coi colori più
+                    <lb/>vivi, che poteva, la classe sociale, che dalla rivoluzione so<pc force="weak">-</pc>
+                    <lb break="no"/>pravvenuta fu più profondamente modificata d’ ogni altra,
+                    <lb/>la classe, che anche in tempi tranquilli, indulge più d’ogni
+                    <lb/>altra ai pregiudizi della moda, e cangia più facilmente
+                    <lb/>d’ ogni altra pensieri, gusti, costumi, fogge, condizioni in<pc force="weak">-</pc>
+                    <lb break="no"/>trinseche ed apparenze esteriori. Quindi è che la satira del<pc force="weak">-</pc>
+                    <lb break="no"/> <corr>l</corr>’ <persName><surname>Albergati</surname></persName>, troppo abbarbicata al tempo suo, dovea di ne<pc force="weak">-</pc>
+                    <lb break="no"/>cessità morire con esso o rimanere tutto al più documento
+                    <lb/>di storia »</q> <ref>(pag. 347)</ref>.
+                </p>
+
+                <p facs="#pag422-p4">
+                    <lb/>Il <persName><surname>Cantù</surname></persName> dice nella <title>Storia della letteratura italiana</title> <ref>(ca<pc force="weak">-</pc>
+                    <lb break="no"/>pitolo XVI, pag. 493)</ref> che l’<persName><surname>Albergati</surname></persName> fu <q>« cattiv’uomo. »</q>
+                    <lb/>Ma la lettura del libro del <persName><surname>Masi</surname></persName> c’ induce a concludere
+                    <lb/>tutto 1’ opposto. Il <persName><surname>Masi</surname></persName> nota in più d’un luogo che l’<persName><surname>Al<pc force="weak">-</pc>
+                    <lb break="no"/>bergati</surname></persName> non fu uomo di profondo sentire ; ebbe quella
+                    <lb/>superficialità di sentimenti che era propria di tutte le
+                    <lb/>classi del suo secolo, specialmente di quella, a cui esso
+                    <lb/>appartenne. Non fu di certo uno stinco di santo, ma ba<pc force="weak">-</pc>
+                    <lb break="no"/>sterebbe il suo matrimonio colla <persName><forename>Gattina</forename> <surname>Boccabadati</surname></persName>, a
+                    <lb/>cui lo legava non solo <q>« un vincolo di cuore, ma d’ onore, »</q>
+                    <lb/>e la cura che aveva della educazione dei suoi figli a raffi<pc force="weak">-</pc>
+                    <lb break="no"/>gurarcelo sotto tutt’ altro aspetto che quello di un uomo
+                    <lb/>cattivo.
+                </p>
+
+                <p facs="#pag422-p5">
+                    <lb/>Un punto veramente oscuro nella vita dell’ <persName><surname>Albergati</surname></persName> ò
+                    <lb/>la tragica fine della sua seconda moglie, la <persName><surname>Boccabadati</surname></persName>. Ma
+                    <lb/>ci pare che il <persName><surname>Masi</surname></persName> abbia luminosamente provato che esso
+                    <lb/>ne fu affatto innocente. E vero che l’essere uscito assoluto
+                    <lb/>dal processo che gli fu fatto, non è un argomento troppo
+                    <lb/>solido a provarne la innocenza per chi conosce i tempi e
+                    <lb/>la influenza che aveva allora la nobiltà; ma tutto il com<pc force="weak">-</pc>
+                    <lb break="no"/>plesso di quel luttuosissimo dramma e i precedenti dell’<persName><surname>Al<pc force="weak">-</pc>
+                    <lb break="no"/>bergati</surname></persName> e della sua moglie, e le inimicizie molte e potenti,
+                    <lb/>invece delle aderenze, che 1’ accusato s’ era procacciato colla
+                    <lb/>satira, che sulla scena aveva fatto più volte dei costumi
+                    <lb/>della nobiltà, tutto concorre a persuaderci che la trista
+                    <lb/>fine della <persName><surname>Boccabadati</surname></persName> fu <corr>l</corr>’ effetto di un suicidio e non di
+                    <lb/>un omicidio.
+                </p>
+            </body>
+        </text>
+    
+    
+    </TEI>
+
+    <!--Entrata Biliografica "STATISTICA." [Volume 1, Fascicolo 22]-->
+    <TEI xml:id="TEI-B.St">
+        <teiHeader xml:lang='it'>
+            <fileDesc>
+                <titleStmt>
+                    <title>Statistica. (edizione digitale)</title>
+
+                    <!-- Inserisco le informazioni su chi ha realizzato l'edizione digitale -->
+                    <respStmt>
+                        <resp>Progetto coordinato da</resp>
+                        <persName>Angelo Mario Del Grosso</persName>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Trascrizione a cura di</resp>
+                        <persName ref="#CC">Carla Caggiano</persName>
+                    </respStmt>
+                </titleStmt>
+                <!-- Informazioni sulla pubblicazione dell'edizione digitale: -->
+                <publicationStmt>
+                    <publisher>Università di Pisa</publisher>
+                    <distributor>
+                        Carla Caggiano
+                    </distributor>
+                    <pubPlace>Pisa</pubPlace>
+                    <availability status="free">
+                        <p>Dominio pubblico</p>
+                    </availability>
+                    <date when="2024-10">Settembre 2024</date>
+                </publicationStmt>
+                <!-- Informazioni sul documento originale: -->
+                <sourceDesc>
+                    <bibl>
+                        <!-- Titolo del documento originale -->
+                        <title level="a">
+                            Entrata bibliografica nella sezione "Statistica" in:
+                        </title>
+                        <!-- Titolo della rivista: -->
+                        <title level="j">La Rassegna Settimanale 
+                            <title type="sub">di politica, scienze, lettere ed arti</title>
+                        </title>
+                        <publisher>Casa Editrice Barbèra</publisher>
+                        <pubPlace>Firenze</pubPlace>
+                        <date>1878</date>
+                        <!-- Informazioni sulla parte del documento codificata: -->
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="issue">22</biblScope>
+                        <biblScope unit="page" from="422" to="423"/>
+                        <edition source="https://rassegnasettimanale.animi.it/wp-content/uploads/2019/02/Vol1-1878-1-S1-F6.pdf#page=10">
+                            Edizione digitale a cura di: 
+                            <orgName>Comitato per il Centenario della morte di Leopoldo Franchetti</orgName>,
+                            <orgName>Associazione nazionale per gli interessi del Mezzogiorno d’Italia (ANIMI)</orgName>,
+                            <orgName>Università degli Studi Suor Orsola Benincasa</orgName>
+                        </edition>
+                    </bibl>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+
+        <!--Zone-->
+        <facsimile>
+            <surface xml:id="pag422-S">
+                <graphic url='img/Bibliografia1.jpg' width='1106px' height='1600px' />
+                <!--Titolo Sezione-->
+                <zone ulx="766" uly="1014" lrx="860" lry="1033" xml:id="pag422-TS"/>
+                <!--Biliografia-->
+                <zone ulx="571" uly="1037" lrx="1061" lry="1189" xml:id="pag422-BiblSta"/>
+                <!--Paragrafo 1.1-->
+                <zone ulx="569" uly="1189" lrx="1062" lry="1505" xml:id="pag422-p1.1"/>
+            </surface>
+    
+  
+            <surface xml:id="pag423">
+                <graphic url='img/Bibliografia2.jpg' width='1119px' height='1600px' />
+                <!--data volume-->
+                <zone ulx="70" uly="223" lrx="224" lry="73" xml:id="pag423-data" />
+                <!--Titolo Rivista-->
+                <zone ulx="403" uly="739" lrx="746" lry="408" xml:id="pag423-TR" />
+                <!--Numero pagina-->
+                <zone ulx="1043" uly="1083" lrx="1091" lry="1047" xml:id="pag423-np" />
+
+                <!--Paragrafo 1.2-->
+                <zone ulx="67" uly="120" lrx="551" lry="155" xml:id="pag423-p1.2"/>
+                <!--Paragrafo 2-->
+                <zone ulx="67" uly="155" lrx="550" lry="467" xml:id="pag423-p2"/>
+                <!--Paragrafo 3-->
+                <zone ulx="66" uly="466" lrx="552" lry="634" xml:id="pag423-p3"/>
+                <!--Paragrafo 4-->
+                <zone ulx="70" uly="634" lrx="554" lry="903" xml:id="pag423-p4"/>
+                <!--Paragrafo 5-->
+                <zone ulx="69" uly="902" lrx="554" lry="1110" xml:id="pag423-p5"/>
+                <!--Paragrafo 6-->
+                <zone ulx="72" uly="1109" lrx="554" lry="1211" xml:id="pag423-p6"/>
+                <!--Paragrafo 7-->
+                <zone ulx="70" uly="1212" lrx="557" lry="1295" xml:id="pag423-p7"/>
+            </surface>
+        </facsimile>
+
+        <text xml:lang='it'>
+            <body>
+                <cb/>
+                <head rend="align(center) case(allcaps)" facs="#pag422-Stat">
+                    STATISTICA.
+                </head>
+
+                <bibl facs="#pag422-Bibl">
+                    <author rend="case(allcaps)" facs="#JK">
+                        <persName>
+                            <forename>Joseph</forename>
+                            <surname><corr>Körösi</corr></surname>
+                        </persName>
+                    </author>.
+
+                    <title rend="italic" xml:lang="fr">Statistique internationale des grandes villes,
+                    <lb/>première section, Mouvement de la population.</title>
+                    —<pubPlace>Budapest</pubPlace>, <date>1876</date>.
+
+                    <lb/>—<title rend="italic" xml:lang="fr">Statistique internationale des grandes villes, deuxième section,
+                    <lb/>Statistique des finances</title>. — <pubPlace>Budapest</pubPlace>, <date>1878</date>.
+
+                    <lb/><title rend="italic" xml:lang="fr">Statistique des banques d’émission,
+                        <placeName>
+                            <country>Autriche-Hongrie</country>
+                        </placeName>,
+                        <placeName>
+                            <country>Belgique</country>
+                        </placeName>,
+                    <lb/>
+                    <placeName>
+                        <country>Pays-Bas</country>
+                    </placeName>,
+                    <placeName>
+                        <country>Suède</country>
+                    </placeName>,
+                    <placeName>
+                        <country>Norvège</country>
+                    </placeName>.</title> 
+                    — <pubPlace>Rome</pubPlace>, <date>1878</date>.
+                </bibl>
+
+                <p facs="#pag422-p1.1">
+                    <lb/>Queste <num type="cardinal" value="3">tre</num> pubblicazioni offrono i risultati di ricerche
+                    <lb/>non peranco compiute, ma abbastanza ampie sopra fatti
+                    <lb/>demografici ed economici che destarono in particolar modo
+                    <lb/><corr>l</corr>’ attenzione del <orgName>Congresso</orgName> di statistica, nelle sue più re<pc force="weak">-</pc>
+                    <lb break="no" />centi sessioni, e furono eseguite per cura di membri del
+                    <lb/><corr>C</corr>omitato permanente del <orgName>Congresso</orgName> medesimo. Vengono <!--"Gomitato" ="Comitato-->
+                    <lb/>appresso a <num type="cardinal" value="2">due</num> altri lavori di statistica internazionale com<pc force="weak">-</pc>
+                    <lb break="no" />parata molto importanti ; l'<title xml:lang="fr" rend="italic"><corr>È</corr>tat de la population</title>, compilato <!--"VFtat"-->
+                    <lb/>dal <placeName>Berg</placeName> (<placeName><country>Svezia</country></placeName>) e la <title xml:lang="fr" rend="italic">Statistique internationale des Caisses
+                    <lb/>d’épargne</title> compilata dal <placeName>Bodio</placeName> ; rispondono, come questi, al
+                    <lb/>disegno di dare un assetto razionale alla statistica compa<pc force="weak">-</pc>
+                    <lb break="no" />rata coll’indirizzo di ricerche uniformi ed omogenee; <damage>e</damage> <!-- inchiostro un po' cancellato-->
+                    <lb/>fanno prova di render possibili que’ riscontri e quelle <unclear reason="ink blot"></unclear> com<pc force="weak">-</pc>
+                    <lb break="no" />parazioni, che mancano il più delle volte di valore pratico
+                    <lb/>per la diversità de’ criteri a cui s’ispirano le ricerche o
+                </p>
+
+
+
+                    <pb n="423" facs="#pag423"/>
+                    
+                    <milestone unit="column" facs="#pag423-p1.2"/>
+                
+                                  <!--inizio pag 4-->
+                <fw type="header" place= "top">
+                    <fw rend="align(left)" facs="#pag423-data">
+                        2 Giugno ’78.]
+                    </fw>
+                    <fw rend="align(center) case(allcaps)" facs="#pag414-TR">
+                        LA RASSEGNA SETTIMANALE.
+                    </fw>
+                    <fw rend="align(right)" facs="#pag423-np">
+                        423
+                    </fw>
+                </fw>
+
+                <p>
+                    <lb/>pel diverso peso de’ fatti che gli <orgName>Uffici di statistica</orgName> inve<pc force="weak">-</pc>
+                    <lb break="no" />stigano e registrano a proprio modo ne’ vari paesi.
+                </p>
+
+                <p facs="#pag423-p2">
+                    <lb/>Dire che in ognuno di questi lavori si troverà ampia
+                    <lb/>mèsse di notizie e di dati in vario modo proficui, e
+                    <lb/>che non potrebbero attingersi, nemmeno in proporzioni
+                    <lb/>più modeste, ad alcun’altra fonte, è superfluo. Ma i la<pc force="weak">-</pc>
+                    <lb break="no" />vori, di cui teniamo parola, possono meritare soltanto
+                    <lb/>il nome di tentativi degni d’incoraggiamento ; essi sono
+                    <lb/>ben lontani dal porgere l’esempio di una critica compa<pc force="weak">-</pc>
+                    <lb break="no" />rativa paziente e condotta in tal <distinct>guisa</distinct> da rendere pos<pc force="weak">-</pc>
+                    <lb break="no" />sibile il parallelo delle condizioni d’un paese con quelle
+                    <lb/>dell’ altro ; anzi coloro i quali fecero a fidanza con queste
+                    <lb/>più recenti prove della statistica applicata, deploreranno
+                    <lb/>certamente che il <term rend="italic">carattere monografico</term> prevalga in questi
+                    <lb/>studi; imperocché questa sia la confessione più aperta de<pc force="weak">-</pc>
+                    <lb break="no" />gli ostacoli, onde le ricerche statistiche trovano tuttora as<pc force="weak">-</pc>
+                    <lb break="no" />siepato il proprio cammino.
+                </p>
+
+                <p facs="#pag423-p3">
+                    <lb/>Sarebbe, a cagion d’ esempio, fatica sprecata il confron<pc force="weak">-</pc>
+                    <lb break="no" />tare le condizioni degl’ <orgName>Istituti di emissione</orgName> nei vari Stati
+                    <lb/>di cui si raccolsero le notizie, o le perturbazioni prodotte,
+                    <lb/>in ciascuno di essi, dalla circolazione cartacea. Ogni con<pc force="weak">-</pc>
+                    <lb break="no" />fronto vero e proprio fa assolutamente difetto ; e ben si
+                    <lb/>comprende che questa lacuna così grave deriva dalla na<pc force="weak">-</pc>
+                    <lb break="no" />tura stessa dei fatti e dalla impossibilità di <term rend="italic">mettere in fun<pc force="weak">-</pc>
+                    <lb break="no" />zione</term> elementi che debbon dirsi disparatissimi.
+                </p>
+
+                <p facs="#pag423-p4">
+                    <lb/>In egual modo si può esaminare con qualche interesse
+                    <lb/>il bilancio dei centri urbani delle maggiori città <orgName>Europa</orgName>
+                    <lb/>e ricavarne la dimostrazione di tendenze che sono inegual<pc force="weak">-</pc>
+                    <lb break="no" />mente apprezzate. Ma ognuno si avvede che mancano ele<pc force="weak">-</pc>
+                    <lb break="no" />menti precisi per portare un giudizio sicuro sopra questo
+                    <lb/>nuovo indirizzo delle finanze locali e sopra gli effetti che
+                    <lb/>da esse derivano. Imperocché le cifre son ricavate dai <term rend="italic">bilanci
+                    <lb/>preventivi</term> e non corrispondono o corrispondono inegual<pc force="weak">-</pc>
+                    <lb break="no" />mente alla finanza reale. E non solo dei bilanci, ma della
+                    <lb/>consistenza dei <term rend="italic">debiti</term> non si può fare un giusto apprezza<pc force="weak">-</pc>
+                    <lb break="no" />mento, per la ineguaglianza dei criteri con cui si tien conto
+                    <lb/>in ciascun paese delle <term rend="italic">attività patrimoniali</term> che equilibrano
+                    <lb/>i debiti stessi facendo men gravi le loro conseguenze.
+                </p>
+
+                <p facs="#pag423-p5">
+                    <lb/>Tenendo conto soltanto di queste ultime notizie, (poiché
+                    <lb/>la pubblicazione internazionale sugl’ <orgName>Istituti di credito</orgName> non
+                    <lb/>prende in esame le condizioni delle grandi banche d’<placeName><country>Italia</country></placeName>)
+                    <lb/>si può ricavare un solo ammaestramento ben certo. Ed è
+                    <lb/>che in veruno <orgName>Stato d’ Europa</orgName> le finanze locali sdrucciola<pc force="weak">-</pc>
+                    <lb break="no" />rono così rapidamente sulla china dei debiti, <corr>com'</corr>è acca<pc force="weak">-</pc> <!-- coni’ è-->
+                    <lb break="no" />duto in <placeName><country>Italia</country></placeName>. A parità di altre condizioni, non si ha esempi
+                    <lb/>in alcun luogo degli ardimenti o della fiducia imprevidente
+                    <lb/>onde hanno dato testimonianza taluni <orgName>Municipi italiani</orgName>. E
+                    <lb/><corr>l</corr>’ ammaestramento è davvero significante.
+                </p>
+
+                <p facs="#pag423-p6">
+                    <lb/>Lo è tanto più che, a nostro avviso, la causa dei fatti,
+                    <lb/>onde si muove così giusto lamento fra noi, dipende parti<pc force="weak">-</pc>
+                    <lb break="no" />colarmente da una ripartizione non misurata degli uffici
+                    <lb/>amministrativi e da tendenze od indirizzi dello spirito pub<pc force="weak">-</pc>
+                    <lb break="no" />blico che le leggi sono impotenti a governare o a moderare.
+                </p>
+
+                <p facs="#pag423-p7">
+                    <lb/>Speriamo che non sia lontano il giorno in cui queste
+                    <lb/>manifeste attinenze dei pesi finanziari colle attribuzioni am<pc force="weak">-</pc>
+                    <lb break="no" />ministrative dei corpi locali saranno più diligentemente
+                    <lb/>studiate anche in <placeName><country>Italia</country></placeName>.
+                </p>
+            </body>
+        </text>
+    </TEI>
+
+    <!--Entrata Notizie [Volume 1, Fascicolo 22]-->
+    <TEI xml:id="TEI-News">
+        <teiHeader xml:lang='it'>
+            <fileDesc>
+                <titleStmt>
+                    <title>Notizie (edizione digitale)</title>
+
+                    <!-- Inserisco le informazioni su chi ha realizzato l'edizione digitale -->
+                    <respStmt>
+                        <resp>Progetto coordinato da</resp>
+                        <persName>Angelo Mario Del Grosso</persName>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Trascrizione a cura di</resp>
+                        <persName ref="#IP">Irene Pallassini</persName>
+                    </respStmt>
+                </titleStmt>
+                <!-- Informazioni sulla pubblicazione dell'edizione digitale: -->
+                <publicationStmt>
+                    <publisher>Università di Pisa</publisher>
+                    <distributor>
+                        Irene Pallassini
+                    </distributor>
+                    <pubPlace>Pisa</pubPlace>
+                    <availability status="free">
+                        <p>Dominio pubblico</p>
+                    </availability>
+                    <date when="2024-10">Settembre 2024</date>
+                </publicationStmt>
+                <!-- Informazioni sul documento originale: -->
+                <sourceDesc>
+                    <bibl>
+                        <!-- Titolo del documento originale -->
+                        <title level="a">
+                            Sezione Notizie:
+                        </title>
+                        <!-- Titolo della rivista: -->
+                        <title level="j">La Rassegna Settimanale 
+                            <title type="sub">di politica, scienze, lettere ed arti</title>
+                        </title>
+                        <publisher>Casa Editrice Barbèra</publisher>
+                        <pubPlace>Firenze</pubPlace>
+                        <date>1878</date>
+                        <!-- Informazioni sulla parte del documento codificata: -->
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="issue">22</biblScope>
+                        <biblScope unit="page">424</biblScope>
+                        <edition source="https://rassegnasettimanale.animi.it/wp-content/uploads/2019/02/Vol1-1878-1-S1-F6.pdf#page=10">
+                            Edizione digitale a cura di: 
+                            <orgName>Comitato per il Centenario della morte di Leopoldo Franchetti</orgName>,
+                            <orgName>Associazione nazionale per gli interessi del Mezzogiorno d’Italia (ANIMI)</orgName>,
+                            <orgName>Università degli Studi Suor Orsola Benincasa</orgName>
+                        </edition>
+                    </bibl>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+
+        <!--Zone codificate documento-->
+        <facsimile>
+            <surface xml:id="pag424">
+                <graphic url='img/Notizie.jpg' width='1143.666666px' height='1653.666666px' />
+                <!--numero pagina-->
+                <zone ulx="70" uly="130" lrx="131" lry="73" xml:id="pag424-np" />
+                <!--Titolo Rivista-->
+                <zone ulx="423" uly="748" lrx="756" lry="425" xml:id="pag424-TR"/>
+                <!--numero volume-->
+                <zone ulx="948" uly="1092" lrx="1090"  lry="944" xml:id="pag424-nv" />
+                <!--titolo sezione-->
+                <zone ulx="797" uly="890" lrx="899" lry="798" xml:id="pag424-TS" />
+
+                <!--Paragrafi-->
+                <!--Notizia 1-->
+                <zone ulx="592" uly="138" lrx="1098" lry="530" xml:id="pag424-N1"/>
+                <!--Notizia 2-->
+                <zone ulx="590" uly="526" lrx="1100" lry="682" xml:id="pag424-N2"/>
+                <!--Notizia 3-->
+                <zone ulx="592" uly="687" lrx="1098" lry="744" xml:id="pag424-N3"/>
+                <!--Notizia 4-->
+                <zone ulx="588" uly="743" lrx="1099" lry="885" xml:id="pag424-N4"/>
+                <!--Notizia 5-->
+                <zone ulx="589" uly="881" lrx="1097" lry="940" xml:id="pag424-N5"/>
+
+            </surface>
+        </facsimile>
+
+        <text xml:lang='it'>
+            <body>
+
+            <fw type="header" place= "top">
+                        <fw rend="align(left)" facs="#pag424-no">
+                            424
+                        </fw>
+                        <fw rend="align(center) case(allcaps)" facs="#pag424-TR">
+                        LA RASSEGNA SETTIMANALE
+                        </fw>
+                        <fw rend="align(right)" facs="#pag424-nv">
+                           [Vol 1 N°. 22.
+                        </fw>
+                    </fw>
+                <pb n="424" facs="#pag424"/>
+                <head rend="case(allcaps) align(center)" facs="#pag424-TS">
+                    NOTIZIE.
+                </head>
+                
+                <list>
+                    <item facs="#pag424-N1">
+                        <lb/>Una nuova teoria sull’ origine e la sede primitiva della stirp<unclear reason="ink blot">e</unclear> Ariana,
+                        <lb/>stipite delle razze indo-europee, è stata fatta ultimamente da <persName><forename>Teodoro</forename>
+                        <lb/><surname>Poesche</surname></persName> (<bibl><title rend="italic">Gli Ariani: Contribuzione all'antropologia storica</title>. <author><persName><forename>Jena</forename>, <surname>Costc<pc force="weak">-</pc>
+                        <lb break="no"/>noble</surname></persName></author>, <date>18<damage degree="medium">78</damage></date></bibl>), Finora si era ritenuto presso a poco generalmente che i
+                        <lb/>popoli Ariani fossero immigrati dall’ <placeName type="continent">Asia</placeName> in <placeName type="continent">Europa</placeName>. Soltanto il <persName>Beufey</persName>,
+                        <lb/>il <persName>Cuno</persName> e pochi altri avevano sostenuto la loro origine europea. Ora il
+                        <lb/><surname>Poesche</surname> crede di aver trovato il posto che occupava da principio que<pc force="weak">-</pc>
+                        <lb break="no"/>sta razza, nella pianura <!--forse tag placename-->europea settentrionale, tra il <placeName>Niemen</placeName> e il <placeName>Dnieper</placeName>.
+                        <lb/>Allega delle ragioni geografiche e linguistiche per confermare la sua
+                        <lb/>teoria. I Lituani la lingua dei quali ha i segni più evidenti di una
+                        <lb/>remota antichità, abitano ancora sul <placeName>Niemen</placeName>. Curioso è il fatto che
+                        <lb/>tutto quel paese (le paludi di <placeName>Rokitno</placeName>) ha la qualità di scolorire uo<pc force="weak">-</pc>
+                        <lb break="no"/>mini, animali e piante. Tutta la natura ci porta un colore pallido, e
+                        <lb/>anche l’ albinismo vi è frequente. Il <persName><surname>Poesche</surname></persName> che definisce fisiologica<pc force="weak">-</pc>
+                        <lb break="no"/>mente gli Ariani, che al principio erano tutti biondi e con occhi celesti,
+                        <lb/>come mezzo albini, vede un argomento speciale in favore della sua teo<pc force="weak">-</pc>
+                        <lb break="no"/>ria in questa particolarità della contrada russa dove mette la loro ori<pc force="weak">-</pc>
+                        <lb break="no"/>gine. Il libro è importante dal lato linguistico. L’ <abbr>A.</abbr> attribuisce ai
+                        <lb/>popoli originariamente Ariani, una estensione meno grande di quella che
+                        <lb/>potrebbe supporsi dalla diffusione delle lingue Ariane.
+                    </item>
+
+                    <item facs="#pag424-N2">
+                        <lb/>Negli ultimi tempi il <persName>Bidermann</persName> nel suo libro <title rend="italic">Sui popoli neolatini e
+                        <lb/>la loro propagazione nell'<placeName>Austria</placeName> e lo <placeName>Schneller</placeName></title> in un articolo ins<damage degree="medium">er</damage>ito nelle
+                        <lb/><bibl><title rend="italic">Petermonn’s Mittheilungen</title> (<author>Gotha</author>)</bibl> hanno calcolato presso a poco con<pc force="weak">-</pc>
+                        <lb break="no"/>temporaneamente il numero degli Italiani e dei Romani (Ladini) esi<pc force="weak">-</pc>
+                        <lb break="no"/>stenti nel <placeName>Tirolo</placeName>. Il <persName>Bidermann</persName> conta <num type="cardinal" value="324000">324 mila</num> Italiani e presso a poco
+                        <lb/><num type="cardinal" value="20000">20 mila</num> Romani (in parte italianizzati). Lo <placeName>Schneller</placeName> conta <num type="cardinal" value="341000">341 mila</num> Ita<pc force="weak">-</pc>
+                        <lb break="no"/>liani (compresi <num type="cardinal" value="7000">7 mila</num> Tedeschi viventi in mezzo ad essi) e <num type="cardinal" value="324000">20 mila</num> Ro<pc force="weak">-</pc>
+                        <lb break="no"/>mani.
+                        <lb/><seg rend="align(right)">(<title level="j" rend="italics">Aligera. Zeit.</title>)</seg>
+                    </item>
+
+                    <!--PArte Carla-->
+                    <item  facs="#pag424-N3">
+                        L’ <institution rend="italic">University Magazine</institution> (<date when="--06">giugno</date>) <damage>pubblicherà</damage> un saggio di <persName><forename>Carlo</forename> <!--originale "M agazine"-->
+                        <lb/><surname><damage>Blind</damage></surname></persName> intorno a <q>« Vera <damage>Sass<corr>u</corr>litch</damage> e lo aspirazioni costituzionali in <placeName><country>Rus<pc force="weak">-</pc>
+                        <lb break="no" />sia</country></placeName> » </q> <corr>che</corr> conterrà molte nuove informazioni. <!-- originale: "Sussiditeli" // "elio" -->
+                        <lb/><seg rend="align(right)">(<title level="j" rend="italics" xml:lang="ing"><unclear reason="illegible">Academy</unclear></title>.)</seg> <!--originale: "McaiZcmy" -->
+                    </item>
+
+                    <item  facs="#pag424-N4">
+                        <lb/><persName><forename>Colborne</forename><surname>Baber</surname></persName> nel suo rapporto sulla mission<damage><corr>e</corr></damage>di <persName><surname>Grosv<damage>e</damage>nor</surname></persName> testò <!-- originale: "missiono"-->
+                        <lb/>pubblicato, paragonando le sue esperienze <abbr>colla</abbr> relazione di <persName><forename>Marco</forename><surname>Polo</surname></persName>
+                        <lb/>conferma sotto quasi tutti i riguardi le informazioni sopra la <placeName>China</placeName> date
+                        <lb/><damage>dal</damage> <persName><roleName>viaggiatore Veneto</roleName></persName>. La differenza principale consiste in questo, che
+                        <lb/>il popolo di <placeName>Yünnan</placeName> non parla più un dialetto inintelligibile per i chi<pc force="weak">-</pc> <!-- originale:"Yiinnan-->
+                        <lb break="no" /><supplied>sia</supplied>nesi come al tempo di <persName><forename>Marco</forename><surname>Polo</surname></persName>, ma una forma di puro Chinese im<pc force="weak">-</pc>
+                        <lb break="no" />postagli più tardi.
+                            <seg rend="align(right)" >(<title level="j" rend="italics" xml:lang="ing">Academy</title>.)</seg>
+                    </item>
+
+                    <item  facs="#pag424-N5">
+                        <lb/>Gli articoli pubblicati negli ultimi fascicoli della Fortnightly <corr>Revicio</corr>
+                        <lb/>sopra <persName><roleName type="nobility">Lord</roleName><surname>Beaconsfield</surname></persName> sono attribuiti al <persName><roleName>professore</roleName><surname>Hodgson </surname></persName> dell’Univer<pc force="weak">-</pc>
+                        <lb break="no" />sità di <placeName type="city">Edimburgo</placeName>. 
+                            <seg rend="align(right)" >(<title rend="italics" xml:lang="deu"><unclear reason="illegible">Athenaeum</unclear></title>.)</seg> <!--originale: Athenäum-->
+                    </item>
+                </list>
+            </body>
+        </text>
+    </TEI>
+
+</TEI>
